@@ -1,7 +1,7 @@
             function Register(){
             // fetch title id
             var id = "97CAF";
-            var username = localStorage.username ? localStorage.username : document.getElementById("userName");
+            var username = document.getElementById("userName");
             if(!id || id == "")
             {
               OutputError("TitleId cannot be null");
