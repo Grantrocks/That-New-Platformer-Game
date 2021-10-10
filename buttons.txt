@@ -1,0 +1,4 @@
+       <div id="result"> </div>
+        <p>That New Platformer Game is about just jumping and walking around and collecting coins. I have many ideas for this game and a multiplayer option is one of them for the future. I really hope you enjoy playing!</p>
+        <button class="myButton" name="playAgain" onclick="location.reload()">Play Again</button>
+        <button class="myButton" name="resetBtn" onclick="resetScore()">Reset Score</button>
