@@ -97,9 +97,9 @@ function preload() {
                 assetText.destroy();
             });
             
-            this.load.image('logo', 'zenvalogo.png');
+            this.load.image('logo', 'logo.png');
             for (var i = 0; i < 0; i++) {
-                this.load.image('logo'+i, 'zenvalogo.png');
+                this.load.image('logo'+i, 'logo.png');
             }
 this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.json');
 this.load.image('coin','blocks/coin.png');
