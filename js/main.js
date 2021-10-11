@@ -1,6 +1,5 @@
 // Map for the game
-//At the top of your js file
-const map = 'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
+/*const map = 'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
             'd                                                                        d.'+
             'd    c     s     c                                                       d.'+
             'd 2  p     p     p     p                                                 d.'+
@@ -15,7 +14,8 @@ const map = 'ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
             'd p     p           p                 p                                  d.'+
             'd                                p                                       d.'+
             'd ccccccccccc   s    s         c                                         d.'+
-            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr';
+            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr';*/
+// uncomment if game is broken
         // The game config that is used by Phaser
 var config = {
     type: Phaser.AUTO,
