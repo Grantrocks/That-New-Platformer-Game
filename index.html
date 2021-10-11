@@ -15,49 +15,16 @@
 <h1 class="headcenter">That New Platformer Game</h1>
 <h3><a href="register.html">Register</a></h3>
 <div id="game"></div> 
-<p>That New Platformer Game is about just jumping and walking around and collecting coins. I have many ideas for this game and a multiplayer option is one of them for the future. I really hope you enjoy playing! Login with your username.</p>
-<input type="hidden" id="titleId" value="97CAF">
-<input id="userName" type="text" name="userName" placeholder="Username">
-
-<button class="myButton" onclick="Register()">Login</button>
-
+<p>That New Platformer Game is about just jumping and walking around and collecting coins. I have many ideas for this game and a multiplayer option is one of them for the future. I really hope you enjoy playing! Also do not clear your cookies as you WILL lose all of your game data.</p>
+<br>
+    <h3>Updates</h3> 
+ <ul>
+     <li><p>1.0.2: Removed Login/Register. It stopped working.</p></li>
+     <li><p>1.0.1: Removed Chat. Broke The website.</p></li>
+     <li><p>1.0.0: Created the game. Made a new map. New character. New animations. New sounds. etc</p></li>
+    </ul>
 <button class="myButton" onclick="location.reload()">Play Again</button>
 
 <button class="myButton" onclick="resetScore()">Reset Score</button>
-<div id="result"> </div>
-<h2>Chat</h2>
-<div><input id=input placeholder="message" /></div>
-<div id=box></div>
-<script src=https://cdn.pubnub.com/sdk/javascript/pubnub.4.28.2.min.js></script>
-<script> (function() {
-        var pubnub = new PubNub({
-            publishKey: 'pub-c-13ccf3ad-0bc1-4bd1-9392-fca0d068064f',
-            subscribeKey: 'sub-c-2907bc0a-2a0f-11ec-bfec-fa2d187f6aa6'
-        });
-        function $(id) {
-            return document.getElementById(id);
-        }
-        var box = $('box'),
-            input = $('input'),
-            channel = '10chat-demo';
-        pubnub.addListener({
-            message: function(obj) {
-                box.innerHTML = ('' + obj.message).replace(/[<>]/g, '') + '<br>' + box.innerHTML
-            }
-        });
-        pubnub.subscribe({
-            channels: [channel]
-        });
-        input.addEventListener('keyup', function(e) {
-            if ((e.keyCode || e.charCode) === 13) {
-                pubnub.publish({
-                    channel: channel,
-                    message: input.value,
-                    x: (input.value = '')
-                });
-            }
-        });
-    })();
-</script>
     </body>
 </html>
