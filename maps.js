@@ -1,5 +1,5 @@
 // Map for the game
-const map = 'd                         c              ccc    p            c d.'+
+const dmap = 'd                         c              ccc    p            c d.'+
             'd                         p    c         ccc       p         c d.'+
             'd                              p     c   ccc          p    p c d.'+
             'd              c                     p   ccc               p  cd.'+
