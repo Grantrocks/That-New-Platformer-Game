@@ -6,7 +6,7 @@ var Menu = new Phaser.Class({
     init: function() {},
     preload: function() {},
     create: function() {
-    this.add.text(330, 100, 'That New Platformer Game', {fill: '#0f0'})
+    this.add.text(330, 80, 'That New Platformer Game', {fill: '#0f0'})
     this.clickButton = this.add.text(330, 150, 'Default Map', { fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => this.scene.start("DefaultMap") )
@@ -24,6 +24,7 @@ localStorage.setItem('score',reset);
 localStorage.setItem('level',reset);
 localStorage.setItem('progress',reset);
 localStorage.setItem('progressl',reset);
+localStorage.setItem('increase',reset);
 console.log('Player/User Score Succsessfully Reset');
 alert("Successfully reset score!");
 };
