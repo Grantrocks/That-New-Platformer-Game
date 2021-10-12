@@ -207,11 +207,11 @@ music.play();
 		this.player.setVelocityX(0);
 	}
     }
+});
     var reset = 0; 
 function resetScore(){
   alert("You can't undo this! Reload now to save your stuff")
   localStorage.setItem('score',reset);
   console.log('Player/User Score Succsessfully Reset');
 };
-});
 
