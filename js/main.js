@@ -17,7 +17,7 @@
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr';*/
 // uncomment if game is broken
         // The game config that is used by Phaser
-var config = {
+/*var config = {
     type: Phaser.AUTO,
     parent: 'game',
     width: 800,
@@ -35,9 +35,9 @@ var config = {
         }
       };
 // Create a new Phaser Game object
-const game = new Phaser.Game(config);
+const game = new Phaser.Game(config);*/
 
-function preload() {
+/*function preload() {
      var progressBar = this.add.graphics();
             var progressBox = this.add.graphics();
             progressBox.fillStyle(0x222222, 0.8);
@@ -247,3 +247,4 @@ function resetScore(){
   localStorage.setItem('score',reset);
   console.log('Player/User Score Succsessfully Reset');
 };
+*/
