@@ -135,7 +135,7 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-    if (this.player.progress == (this.player.require += this.player.increase)){
+    if (this.player.progress == (this.player.increase += this.player.require)){
       this.sound.play('complete');
       this.player.level += 1;
       this.player.increase +=5
@@ -244,9 +244,3 @@ music.play();
 	}
     }
 });
-    var reset = 0; 
-function resetScore(){
-  alert("You can't undo this! Reload now to save your stuff")
-  localStorage.setItem('score',reset);
-  console.log('Player/User Score Succsessfully Reset');
-};
