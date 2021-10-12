@@ -21,16 +21,16 @@ const dmap ='d                                                              d.'+
             '                                                                .'+
             ' cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc .'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
-const secmap = 'd                         c              ccc    p            c d.'+
-            'd                         p    c         ccc       p         c d.'+
-            'd                              p     c   ccc          p    p c d.'+
-            'd              c                     p   ccc               p  cd.'+
-            'd              p                                          p   cd.'+
-            'd                              c s               c s     pp   cd.'+
-            'd             c c        c     ppp          c    ppp   cppp   pd.'+
-            'd             ppp        p                             pppp    d.'+
-            'd ccc  2             s             s   c    s     s   pppppsss d.'+
-            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
+const secmap = '                          c              ccc    p            c  .'+
+            '                          p    c         ccc       p         c  .'+
+            '                               p     c   ccc          p    p c  .'+
+            '               c                     p   ccc               p  c .'+
+            '               p                                          p   c .'+
+            '                               c s               c s     pp   c .'+
+            '              c c        c     ppp          c    ppp   cppp   p .'+
+            '              ppp        p                             pppp     .'+
+            '  ccc  2             s             s   c    s     s   pppppsss  .'+
+            'lbbbb  b    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 
 
       
