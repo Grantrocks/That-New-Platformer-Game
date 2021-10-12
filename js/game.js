@@ -122,7 +122,7 @@ music.play();
 	    	}).setScrollFactor(0).setDepth(200);
 	};
 	this.collectCoin = (player, coin)=>{
-		player.score+=10;
+		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
     this.sound.play('collectcoin');
