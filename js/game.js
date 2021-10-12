@@ -100,11 +100,9 @@ music.play();
 		this.player.score = 0;
 		this.player.level = 0;
 		this.player.progress = 0;
-		this.player.progressl = 0;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
     		this.player.level = parseInt(localStorage.getItem('level')) || 0;
     		this.player.progress = parseInt(localStorage.getItem('progress')) ||0;
-		this.player.progressl = parseInt(localStorage.getItem('progressl')) ||0;
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
@@ -115,7 +113,7 @@ music.play();
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
-		this.progresslText = this.add.text(200,0, "Level Up in: "+this.player.progressl, {
+		this.progressText = this.add.text(200,0, "Level Up At: "+this.player.progress, {
 		   	fill:"#000000",
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
@@ -123,23 +121,19 @@ music.play();
 	};
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
-		player.progressl-=5;
-    this.sound.play('collectcoin');
+	    this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
-		this.progresslText.setText("Level Up in: "+this.player.progressl);
+		this.progressText.setText("Level Up At 500: "+this.player.progress);
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
-    localStorage.setItem('progressl',this.player.progressl);
     if (this.player.progress == 500{
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
       this.player.progress = 0;
-      this.player.progressl = 500;
       localStorage.setItem('progress',this.player.progress);
-      localStorage.setItem('progressl',this.player.progressl);
     }
 	};
 	this.die = ()=>{
