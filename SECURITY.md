@@ -2,15 +2,12 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The current supported versions of the game are the following
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.x.x   | ✅                 | 
+| < 1.0.0 | ✅                 |
 
 ## Reporting a Vulnerability
 If you notice any vurnerablility, immeidiatly report it to me.
