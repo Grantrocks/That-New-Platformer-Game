@@ -18,3 +18,12 @@ var Menu = new Phaser.Class({
     
     }
 });
+var reset = 0; 
+function resetScore(){
+localStorage.setItem('score',reset);
+localStorage.setItem('level',reset);
+localStorage.setItem('progress',reset);
+localStorage.setItem('progressl',reset);
+console.log('Player/User Score Succsessfully Reset');
+alert("Successfully reset score!");
+};
