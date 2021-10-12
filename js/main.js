@@ -1,136 +1,5 @@
-// Our scenes
-var gameScene = new Phaser.Scene("game");
-var titleScene = new Phaser.Scene("title");
-
-gameScene.init = function() {
-
-};
-
-gameScene.preload = function() {
-
-};
-
-gameScene.create = function() {
-
-};
-
-gameScene.update = function() {
-
-};
-
-
-gameScene.end = function() {
-
-};
-
-titleScene.preload = function() {
-  var progressBar = this.add.graphics();
-            var progressBox = this.add.graphics();
-            progressBox.fillStyle(0x222222, 0.8);
-            progressBox.fillRect(240, 270, 320, 50);
-            
-            var width = this.cameras.main.width;
-            var height = this.cameras.main.height;
-            var loadingText = this.make.text({
-                x: width / 2,
-                y: height / 2 - 50,
-                text: 'Loading...',
-                style: {
-                    font: '20px monospace',
-                    fill: '#ffffff'
-                }
-            });
-            loadingText.setOrigin(0.5, 0.5);
-            
-            var percentText = this.make.text({
-                x: width / 2,
-                y: height / 2 - 5,
-                text: '0%',
-                style: {
-                    font: '18px monospace',
-                    fill: '#ffffff'
-                }
-            });
-            percentText.setOrigin(0.5, 0.5);
-            
-            var assetText = this.make.text({
-                x: width / 2,
-                y: height / 2 + 50,
-                text: '',
-                style: {
-                    font: '18px monospace',
-                    fill: '#ffffff'
-                }
-            });
-            assetText.setOrigin(0.5, 0.5);
-            
-            this.load.on('progress', function (value) {
-                percentText.setText(parseInt(value * 100) + '%');
-                progressBar.clear();
-                progressBar.fillStyle(0xffffff, 1);
-                progressBar.fillRect(250, 280, 300 * value, 30);
-            });
-            
-            this.load.on('fileprogress', function (file) {
-                assetText.setText('Loading asset: ' + file.key);
-            });
-
-            this.load.on('complete', function () {
-                progressBar.destroy();
-                progressBox.destroy();
-                loadingText.destroy();
-                percentText.destroy();
-                assetText.destroy();
-            });
-            
-            this.load.image('logo', 'logo.png');
-            for (var i = 0; i < 0; i++) {
-                this.load.image('logo'+i, 'logo.png');
-            }
-this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.json');
-this.load.image('coin','blocks/coin.png');
-this.load.image('spike','blocks/spike.png');
-this.load.image('dirt','blocks/dirt.png');
-this.load.image('bottom','blocks/bottom.png');
-this.load.image('edgel','blocks/edge.png');
-this.load.image('edger', 'blocks/edger.png');
-this.load.image('platform','blocks/platform.png');
-this.load.audio('music','audio/backgroundmusic.mp3');
-this.load.audio('collectcoin', 'audio/collectcoin.wav');
-this.load.audio('complete','audio/complete.mp3');
-this.load.audio('hurt', 'audio/Hit.wav');
-this.load.audio('jump', 'audio/Jump.wav');
-};
-
-titleScene.create = function() {
-
-};
-
-// We no longer add the scene to the config
-var config = {
-    type: Phaser.AUTO,
-    parent: 'game',
-    width: 800,
-    height: 400,
-        physics: {
-        default: 'arcade',
-        arcade: {
-            debug: false
-        }
-    },
-};
-
-// Our game Object
-var game = new Phaser.Game(config);
-
-// Add both scenes (it does not start them)
-game.scene.add('titleScene', titleScene);
-game.scene.add("game", gameScene);
-
-// Start the title scene
-game.scene.start('titleScene');
 // The game config that is used by Phaser
-/*var config = {
+var config = {
     type: Phaser.AUTO,
     parent: 'game',
     width: 800,
@@ -148,9 +17,9 @@ game.scene.start('titleScene');
         }
       };
 // Create a new Phaser Game object
-const game = new Phaser.Game(config);*/
+const game = new Phaser.Game(config);
 
-/*function preload() {
+function preload() {
      var progressBar = this.add.graphics();
             var progressBox = this.add.graphics();
             progressBox.fillStyle(0x222222, 0.8);
@@ -360,4 +229,4 @@ function resetScore(){
   localStorage.setItem('score',reset);
   console.log('Player/User Score Succsessfully Reset');
 };
-*/
+
