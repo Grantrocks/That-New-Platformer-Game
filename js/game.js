@@ -97,13 +97,16 @@ music.play();
     this.physics.add.collider(this.player, this.dirt);
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
+		this.player.level = 0;
     this.player.score = parseInt(localStorage.getItem('score')) || 0;
+    this.player.level = parseInt(localStorage.getItem('level')) || 0;
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
 			fontFamily:"Arial Black"
 		}).setScrollFactor(0).setDepth(200);
 	};
+	    this.levelText = this.add.text(0,0, "Level: "+this.player.level, {fill:"#000000", fontSize: "15px", fontFaimly: "Arial Black"}).setScrollFactor(0).setDepth(200);
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
     this.sound.play('collectcoin');
@@ -111,13 +114,25 @@ music.play();
 		this.scoreText.setText("Score: "+ this.player.score);
     localStorage.setItem('score',this.player.score);
     if (this.player.score == 500){
-      this.sound.play('complete'); 
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
     }else if(this.player.score==1000){
       this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
     }else if(this.player.score==1500){
       this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
     }else if(this.player.score===2000){
       this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
     }
 	};
 	this.die = ()=>{
