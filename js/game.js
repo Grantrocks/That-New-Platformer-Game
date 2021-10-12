@@ -72,6 +72,7 @@ this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.js
 this.load.image('coin','blocks/coin.png');
 this.load.image('spike','blocks/spike.png');
 this.load.image('dirt','blocks/dirt.png');
+this.load.image('idirt','blocks/dirt.png');
 this.load.image('bottom','blocks/bottom.png');
 this.load.image('edgel','blocks/edge.png');
 this.load.image('edger', 'blocks/edger.png');
@@ -177,6 +178,7 @@ music.play();
   this.edger = this.physics.add.staticGroup();
   this.dirt = this.physics.add.staticGroup();
   this.edgel = this.physics.add.staticGroup();
+  this.idirt - this.physics.add.staticGroup();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	let mapArr = dmap.split('.');
@@ -207,6 +209,8 @@ music.play();
         this.bottom.create(drawX,drawY, 'bottom');
       }else if(row.charAt(i)==='r'){
         this.bottom.create(drawX,drawY, 'edger');
+      }else if(row.charAt(i)==='i'){
+        this.bottom.create(drawX,drawY, 'idirt');
       }
 			drawX+=18;
 		}
