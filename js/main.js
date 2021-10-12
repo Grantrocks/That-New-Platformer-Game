@@ -5,11 +5,6 @@ const phaserConfig = {
     width: 800,
     height: 600,
     backgroundColor: "#5DACD8",
-    physics: {
-       default: 'arcade',
-       arcade: {
-       debug: false
-    },
     scene: [ SceneOne, SceneTwo ]
 };
 /*var config = {
