@@ -138,7 +138,7 @@ music.play();
     if (this.player.progress == (this.player.increase += this.player.require)){
       this.sound.play('complete');
       this.player.level += 1;
-      this.player.increase +=5
+      this.player.increase += 5;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
       this.player.progress = 0;
