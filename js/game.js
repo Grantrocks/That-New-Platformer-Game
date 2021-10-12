@@ -208,7 +208,7 @@ music.play();
         this.bottom.create(drawX,drawY, 'bottom');
       }else if(row.charAt(i)==='r'){
         this.bottom.create(drawX,drawY, 'edger');
-      }else if(row.charAt(i)==='i'){
+      }else if(row.charAt(i)==='g'){
         this.idirt.create(drawX,drawY, 'idirt');
       }
 			drawX+=18;
