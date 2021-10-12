@@ -229,7 +229,7 @@ music.play();
 		this.player.setVelocityX(200);
 		this.player.anims.play("walk", true);
 		this.player.flipX = false;
-	}else if(this.key_R.isPressed){
+	}else if(this.key_R.isDown){
 	this.scene.restart();
 	}else{
 		this.player.anims.play("stand", true);
