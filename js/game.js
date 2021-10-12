@@ -124,7 +124,7 @@ music.play();
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
 		player.progress+=5;
-		player.progress-=5;
+		player.progressl-=5;
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
