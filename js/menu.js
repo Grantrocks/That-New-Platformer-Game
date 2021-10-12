@@ -1,7 +1,7 @@
-var SceneTwo = new Phaser.Class({
+var Menu = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
-        Phaser.Scene.call(this, { "key": "SceneTwo" });
+        Phaser.Scene.call(this, { "key": "Menu" });
     },
     init: function() {},
     preload: function() {},
