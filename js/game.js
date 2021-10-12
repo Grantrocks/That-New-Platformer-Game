@@ -138,6 +138,26 @@ music.play();
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===2500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===3000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===3500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===4000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
     }
 	};
 	this.die = ()=>{
