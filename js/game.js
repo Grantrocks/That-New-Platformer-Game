@@ -139,7 +139,7 @@ music.play();
   this.edgel = this.physics.add.staticGroup();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
-	let mapArr = map.split('.');
+	let mapArr = dmap.split('.');
 	let drawX = 0;
 	let drawY = 0;
 		mapArr.forEach(row=>{
