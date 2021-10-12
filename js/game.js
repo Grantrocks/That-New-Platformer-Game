@@ -214,7 +214,8 @@ music.play();
 	this.key_UP = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.UP);
 	this.key_LEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
 	this.key_RIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
-	this.key_R = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
+    	this.input.keyboard.on('keydown_R', this.restart, this);
+
     },
     update: function() {
     	if(this.key_UP.isDown && this.player.body.touching.down){
@@ -229,13 +230,22 @@ music.play();
 		this.player.setVelocityX(200);
 		this.player.anims.play("walk", true);
 		this.player.flipX = false;
-	}else if(this.key_R.isDown){
-	this.scene.restart();
 	}else{
 		this.player.anims.play("stand", true);
 		this.player.setVelocityX(0);
 	}
     }
+restart(event) {
+    // Here you can see what's passed when Phaser triggers it.
+    console.log(arguments);
+
+    if (event.keyCode === Phaser.Input.Keyboard.KeyCodes.S) {
+        alert("Pressed");
+	    console.log('S was pressed');
+    } else if (event.keyCode === Phaser.Input.Keyboard.KeyCodes.W) {
+        console.log('W was pressed');
+    }
+}
 });
     var reset = 0; 
 function resetScore(){
