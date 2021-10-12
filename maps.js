@@ -10,12 +10,12 @@ const dmap = 'd                         c              ccc    p            c d.'
             'g      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
             '                                                                .'+
+            'p                                                               .'+
+            '  p                                                             .'+
             '                                                                .'+
+            '     p                                                          .'+
             '                                                                .'+
-            '                                                                .'+
-            '                                                                .'+
-            '                                                                .'+
-            '                                                                .'+
+            '       p                                                        .'+
             ' cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc .'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 const secmap = 'd                         c              ccc    p            c d.'+
