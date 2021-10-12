@@ -1,5 +1,18 @@
 // The game config that is used by Phaser
-var config = {
+const phaserConfig = {
+    type: Phaser.AUTO,
+    parent: "game",
+    width: 800,
+    height: 600,
+    backgroundColor: "#5DACD8",
+    physics: {
+       default: 'arcade',
+       arcade: {
+       debug: false
+    },
+    scene: [ SceneOne, SceneTwo ]
+};
+/*var config = {
     type: Phaser.AUTO,
     parent: 'game',
     width: 800,
@@ -229,4 +242,4 @@ function resetScore(){
   localStorage.setItem('score',reset);
   console.log('Player/User Score Succsessfully Reset');
 };
-
+*/
