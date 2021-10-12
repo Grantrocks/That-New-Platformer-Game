@@ -1,4 +1,3 @@
-import WebFontFile from './js/fonts.js'
 var Menu = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
