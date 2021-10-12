@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>That New Platformer Game</title> 
-<script src="js/phaser.min.js"></script>
-<script src="maps.js"></script>
-<script src="js/main.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/game.js"></script>
-<script src="js/playfabapiimport.js"></script>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1 class="headcenter">That New Platformer Game</h1>
-    <h3><a href="https://github.com/Grantrocks/That-New-Platformer-Game/discussions">Discussion</a></h3>
-    <h6>NOTE! if the game does not load, reload the page. If it still does not load please look in the <a href="https://github.com/Grantrocks/That-New-Platformer-Game/discussions">discussion.</a></h4>
-    <h3>Description</h3>
-<p>That New Platformer Game is about just jumping and walking around and collecting coins. I have many ideas for this game and a multiplayer option is one of them for the future. I really hope you enjoy playing! Also do not clear your cookies as you WILL lose all of your game data.</p>
-<br>
-    <h3>Updates</h3> 
- <ul>
-     <li><p>1.0.2: Removed Login/Register. It stopped working.</p></li>
-     <li><p>1.0.1: Removed Chat. Broke The website.</p></li>
-     <li><p>1.0.0: Created the game. Made a new map. New character. New animations. New sounds. etc</p></li>
-    </ul>
-<button class="myButton" onclick="location.reload()">Play Again</button>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.min.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="game"></div>
+       <!-- <script>
 
-<button class="myButton" onclick="resetScore()">Reset Score</button>
+const phaserConfig = {
+    type: Phaser.AUTO,
+    parent: "game",
+    width: 1280,
+    height: 720,
+    backgroundColor: "#5DACD8",
+    scene: [ SceneOne, SceneTwo ]
+};
+            const game = new Phaser.Game(phaserConfig);
+
+        </script>-->
     </body>
 </html>
