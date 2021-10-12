@@ -125,6 +125,7 @@ music.play();
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
+		this.progressText.setText("Level Up In: "+this.player.progress);
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     if (this.player.progress == 500){
