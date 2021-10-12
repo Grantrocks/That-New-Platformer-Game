@@ -7,6 +7,20 @@
 <script src="js/main.js"></script>
 <script src="js/playfabapiimport.js"></script>
 <link rel="stylesheet" href="style.css">
+        <script>
+        function preload() {}
+
+function create() {}
+
+new Phaser.Game({
+  width: 450,
+  height: 600,
+  scene: {
+    preload,
+    create
+  }
+})
+        </script>
 </head>
 <body>
 <h1 class="headcenter">That New Platformer Game</h1>
