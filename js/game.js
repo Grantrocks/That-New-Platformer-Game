@@ -106,7 +106,12 @@ music.play();
 			fontFamily:"Arial Black"
 		}).setScrollFactor(0).setDepth(200);
 	};
-	    this.levelText = this.add.text(0,0, "Level: "+this.player.level, {fill:"#000000", fontSize: "15px", fontFaimly: "Arial Black"}).setScrollFactor(0).setDepth(200);
+	    this.levelText = this.add.text(0,0, "Level: "+this.player.level, {
+		    fill:"#000000",
+		    fontSize: "15px",
+		    fontFaimly: "Arial Black"
+	    }).setScrollFactor(0).setDepth(200);
+       };
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
     this.sound.play('collectcoin');
