@@ -178,7 +178,7 @@ music.play();
   this.edger = this.physics.add.staticGroup();
   this.dirt = this.physics.add.staticGroup();
   this.edgel = this.physics.add.staticGroup();
-  this.idirt - this.physics.add.staticGroup();
+  this.idirt - this.physics.add.Group();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	let mapArr = dmap.split('.');
