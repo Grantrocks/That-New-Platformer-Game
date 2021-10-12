@@ -6,16 +6,11 @@ var SceneTwo = new Phaser.Class({
     init: function() {},
     preload: function() {},
     create: function() {
-        var text = this.add.text(
-            640, 
-            360, 
-            "Hello World", 
-            {
-                fontSize: 50,
-                color: "#000000",
-                fontStyle: "bold"
-            }
-        ).setOrigin(0.5);
+    this.clickButton = this.add.text(330, 150, 'Default Map', { fill: '#0f0' })
+     .setInteractive()
+     .on('pointerdown', () => this.scene.start("DefaultMap") )
     },
-    update: function() {}
+    update: function() {
+    
+    }
 });
