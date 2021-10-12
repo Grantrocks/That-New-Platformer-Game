@@ -4,7 +4,7 @@ const phaserConfig = {
     parent: "game",
     width: 800,
     height: 400,
-    backgroundColor: "#5DACD8",
+    backgroundColor: "#000000",
         physics: {
         default: 'arcade',
         arcade: {
