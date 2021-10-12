@@ -4,10 +4,10 @@ export default class Menu extends Phaser.Scene {
   }
 
   create() {
-    this.add.text(20, 20, 'Loading..')
+    this.add.text(330, 200, 'Loading..')
 
     setTimeout(() => {
       this.scene.start('game')
-    }, 2000)
+    }, 5000)
   }
 }
