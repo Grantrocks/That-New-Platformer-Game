@@ -1,14 +1,52 @@
-import Welcome from './Welcome'
-import Game from './Game'
+// Our scenes
+var gameScene = new Phaser.Scene("game");
+var titleScene = new Phaser.Scene("title");
 
-const config = {
-  width: 800,
-  height: 600,
-  backgroundColor: 0x000000,
-  scene: [Welcome, Game]
-}
+gameScene.init = function() {
 
-const game = new Phaser.Game(config)
+};
+
+gameScene.preload = function() {
+
+};
+
+gameScene.create = function() {
+
+};
+
+gameScene.update = function() {
+
+};
+
+
+gameScene.end = function() {
+
+};
+
+titleScene.preload = function() {
+
+};
+
+titleScene.create = function() {
+
+};
+
+// We no longer add the scene to the config
+var config = {
+	type: Phaser.AUTO,
+	width: 800,
+	height: 600,
+};
+
+// Our game Object
+var game = new Phaser.Game(config);
+
+// Add both scenes (it does not start them)
+game.scene.add('titleScene', titleScene);
+game.scene.add("game", gameScene);
+
+// Start the title scene
+game.scene.start('titleScene');
 // The game config that is used by Phaser
 /*var config = {
     type: Phaser.AUTO,
