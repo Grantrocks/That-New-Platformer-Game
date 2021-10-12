@@ -1,3 +1,4 @@
+import WebFontFile from './js/fonts.js'
 var DefaultMap = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
