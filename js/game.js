@@ -137,8 +137,9 @@ music.play();
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
       this.player.progress = 0;
-      this.player.progress = 500;
+      this.player.progressl = 500;
       localStorage.setItem('progress',this.player.progress);
+      localStorage.setItem('progressl',this.player.progressl);
     }
 	};
 	this.die = ()=>{
