@@ -105,7 +105,7 @@ music.play();
 			fontSize:"15px",
 			fontFamily:"Arial Black"
 		}).setScrollFactor(0).setDepth(200);
-	        this.levelText = this.add.text(0,0, "Level: "+this.player.level, {
+	        this.levelText = this.add.text(30,0, "Level: "+this.player.level, {
 		   	fill:"#000000",
 		    	fontSize: "15px",
 		    	fontFaimly: "Arial Black"
