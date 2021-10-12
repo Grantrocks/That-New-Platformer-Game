@@ -1,5 +1,36 @@
 // Map for the game
-const map = /*'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
+const map = 'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
+            'd                                                                                                                     cccccccccccd.'+
+            'd  sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscccc                             cccccccccccd.'+
+            'dpppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp                             cccccccccccd.'+
+            'd                                                                                            p                        pppppppppppd.'+
+            'd                                                                                               p    c               p           d.'+
+            'd                                                                                                   ppp             p            d.'+
+            'd                                                                                                          p       p             d.'+
+            'd                                                            c                                                    p              d.'+
+            'd                                                            c                                                   p               d.'+
+            'd                                    c                       c                                                  p                d.'+
+            'd                                    p                     c                                                   p                 d.'+
+            'd              c                                          p                                                   p                  d.'+
+            'd              p               c s                       pp                                                  p                   d.'+
+            'd             c c        c     ppp          c          cppp      ppp                           cssc         p                    d.'+
+            'd             ppp        p                             pppp                   s                pppp        p                     d.'+
+            'd      2             s             s   c    s         pppppsss        c c c  pp       ccscc      s        p                      d.'+
+            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      /*'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
             'd                                                                        d.'+
             'd    c     s     c                                                       d.'+
             'd 2  p     p     p     p                                                 d.'+
@@ -16,22 +47,5 @@ const map = /*'ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
             'd ccccccccccc   s    s         c                                         d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr';*/
 
-'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
-'d                                                                                                                     cccccccccccd.'+
-'d  sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscccc                             cccccccccccd.'+
-'dpppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp                             cccccccccccd.'+
-'d                                                                                            p                        pppppppppppd.'+
-'d                                                                                               p    c               p            d.'+
-'d                                                                                                   ppp             p             d.'+
-'d                                                                                                          p       p              d.'+
-'d                                                            c                                                    p               d.'+
-'d                                                            c                                                   p                d.'+
-'d                                    c                       c                                                  p                 d.'+
-'d                                    p                     c                                                    p                  d.'+
-'d              c                                          p                                                   p                   d.'+
-'d              p               c s                       pp                                                  p                    d.'+
-'d             c c        c     ppp          c          cppp      ppp                           cssc         p                     d.'+
-'d             ppp        p                             pppp                   s                pppp        p                      d.'+
-'d                    s             s   c    s         pppppsss        c c c  pp       ccscc      s        p                       d.'+
-'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
+
             
