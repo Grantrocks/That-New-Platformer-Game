@@ -220,7 +220,7 @@ music.play();
     update: function() {
 	 if(this.key_R.isDown){
 	 this.scene.restart();
-	 },   
+	 }   
     	if(this.key_UP.isDown && this.player.body.touching.down){
 		this.player.setVelocityY(-350);
     this.sound.play('jump');
