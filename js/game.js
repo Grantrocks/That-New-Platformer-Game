@@ -100,9 +100,11 @@ music.play();
 		this.player.score = 0;
 		this.player.level = 0;
 		this.player.progress = 0;
+		this.player.progressl = 500;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
     		this.player.level = parseInt(localStorage.getItem('level')) || 0;
     		this.player.progress = parseInt(localStorage.getItem('progress')) ||0;
+		this.player.progressl = pa
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
