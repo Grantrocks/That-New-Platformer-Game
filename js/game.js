@@ -1,4 +1,4 @@
-var SceneOne = new Phaser.Class({
+var DefaultMap = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
         Phaser.Scene.call(this, { "key": "SceneOne" });
