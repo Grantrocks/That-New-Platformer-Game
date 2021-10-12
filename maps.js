@@ -1,14 +1,14 @@
 // Map for the game
-const map = 'd                                                            c                             cccccccccc     d.'+
-            'd                                                            c                             pppppppppp     d.'+
-            'd                                    c                       c                                          p d.'+
-            'd                                    p                     c                                           p  d.'+
-            'd              c                                          p                                           p   d.'+
-            'd              p               c s                       pp                                          p    d.'+
-            'd             c c        c     ppp          c          cppp      ppp                           cssc       d.'+
-            'd             ppp        p                             pppp                   s                pppp       d.'+
-            'd      2             s             s   c    s         pppppsss        c c c  pp       ccscc      s        d.'+
-            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
+const map = 'd                                                            c d.'+
+            'd                                        ccc    p            c d.'+
+            'd                                    c   ccc        p      p c d.'+
+            'd                                    p   ccc           p   p  cd.'+
+            'd              c                                          p   cd.'+
+            'd              p               c s                       pp   cd.'+
+            'd             c c        c     ppp          c          cppp   pd.'+
+            'd             ppp        p                             pppp    d.'+
+            'd      2             s             s   c    s         pppppsss d.'+
+            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 
       
       
