@@ -112,7 +112,9 @@ music.play();
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
 	};
-
+    this.cliickMenu = this.add.text(300, 0, "Menu", { fill: '#0f0'})
+     .setInteractive()
+     .on('pointerdown', () => this.scene.start("Menu") )
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
     this.sound.play('collectcoin');
