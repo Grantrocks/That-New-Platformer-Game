@@ -126,6 +126,7 @@ music.play();
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
     localStorage.setItem('score',this.player.score);
+    localStorage.setItem('progress',this.player.progress);
     if (this.player.progress == 500){
       this.sound.play('complete');
       this.player.level += 1;
