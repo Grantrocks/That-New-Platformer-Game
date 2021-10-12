@@ -229,7 +229,7 @@ music.play();
 		this.player.setVelocityX(200);
 		this.player.anims.play("walk", true);
 		this.player.flipX = false;
-	}else if(this.key_R){
+	}else if(this.key_R.isPressed){
 	this.scene.restart('DefaultMap');
 	}else{
 		this.player.anims.play("stand", true);
