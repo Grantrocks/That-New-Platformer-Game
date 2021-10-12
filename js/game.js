@@ -1,7 +1,7 @@
 var DefaultMap = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
-        Phaser.Scene.call(this, { "key": "SecMap" });
+        Phaser.Scene.call(this, { "key": "DefaultMap" });
     },
     init: function() {},
     preload: function() {
