@@ -159,6 +159,66 @@ music.play();
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===4500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===5000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===5500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===6000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===6500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===7000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===7500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===8000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===8500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===9000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===9500){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+    }else if(this.player.score===10000){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
     }
 	};
 	this.die = ()=>{
