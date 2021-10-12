@@ -214,6 +214,7 @@ music.play();
 	this.key_UP = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.UP);
 	this.key_LEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
 	this.key_RIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
+	this.key_R = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
     },
     update: function() {
     	if(this.key_UP.isDown && this.player.body.touching.down){
@@ -228,6 +229,8 @@ music.play();
 		this.player.setVelocityX(200);
 		this.player.anims.play("walk", true);
 		this.player.flipX = false;
+	}else if(this.key_R.isDown){
+	this.scene.restart('DefaultMap');
 	}else{
 		this.player.anims.play("stand", true);
 		this.player.setVelocityX(0);
