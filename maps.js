@@ -6,8 +6,8 @@ const dmap = 'd                         c              ccc    p            c d.'
             'd              p                                          p   cd.'+
             'd                              c s               c s     pp   cd.'+
             'd             c c        c     ppp          c    ppp   cppp   pd.'+
-            'u             ppp        p                             pppp    d.'+
-            'u      2             s             s   c    s     s   pppppsss d.'+
+            'g             ppp        p                             pppp    d.'+
+            'g      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
             '                                                                .'+
             '                                                                .'+
