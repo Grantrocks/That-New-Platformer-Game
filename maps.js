@@ -1,5 +1,8 @@
 // Map for the game
-const dmap = 'd                         c              ccc    p            c d.'+
+const dmap ='d                                                              d.'+
+            'd                                                              d.'+
+            'd                                                              d.'+
+            'd                         c              ccc    p            c d.'+
             'd                         p    c         ccc       p         c d.'+
             'd                              p     c   ccc          p    p c d.'+
             'd              c                     p   ccc               p  cd.'+
@@ -10,12 +13,12 @@ const dmap = 'd                         c              ccc    p            c d.'
             'g      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
             '                                                                .'+
+            '                                                                .'+
             'p                                                               .'+
-            '  p                                                             .'+
+            '    p                                                           .'+
             '                                                                .'+
-            '     p                                                          .'+
+            '         p                                                      .'+
             '                                                                .'+
-            '       p                                                        .'+
             ' cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc .'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 const secmap = 'd                         c              ccc    p            c d.'+
