@@ -6,8 +6,17 @@ const dmap = 'd                         c              ccc    p            c d.'
             'd              p                                          p   cd.'+
             'd                              c s               c s     pp   cd.'+
             'd             c c        c     ppp          c    ppp   cppp   pd.'+
-            'd             ppp        p                             pppp    d.'+
-            'd      2             s             s   c    s     s   pppppsss d.'+
+            'i             ppp        p                             pppp    d.'+
+            'i      2             s             s   c    s     s   pppppsss d.'+
+            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
+            '                                                                .'+
+            '                                                                .'+
+            '                                                                .'+
+            '                                                                .'+
+            '                                                                .'+
+            '                                                                .'+
+            '                                                                .'+
+            ' cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc .'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 const secmap = 'd                         c              ccc    p            c d.'+
             'd                         p    c         ccc       p         c d.'+
