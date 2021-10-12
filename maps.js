@@ -1,11 +1,11 @@
 // Map for the game
-const map = 'd                                        ccc    p            c d.'+
-            'd                                        ccc       p         c d.'+
-            'd                                    c   ccc          p    p c d.'+
+const map = 'd                         c              ccc    p            c d.'+
+            'd                         p    c         ccc       p         c d.'+
+            'd                              p     c   ccc          p    p c d.'+
             'd              c                     p   ccc               p  cd.'+
             'd              p                                          p   cd.'+
-            'd                              c s               cs      pp   cd.'+
-            'd             c c        c     ppp          c    pp    cppp   pd.'+
+            'd                              c s               c s     pp   cd.'+
+            'd             c c        c     ppp          c    ppp   cppp   pd.'+
             'd             ppp        p                             pppp    d.'+
             'd      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
