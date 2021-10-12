@@ -115,7 +115,7 @@ music.play();
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
-		this.progressText = this.add.text(200,0, "Level Up At 500: "+this.player.progress, {
+		this.progressText = this.add.text(200,0, "Level Up in: "+this.player.progressl, {
 		   	fill:"#000000",
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
