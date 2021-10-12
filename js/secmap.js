@@ -72,6 +72,7 @@ this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.js
 this.load.image('coin','blocks/coin.png');
 this.load.image('spike','blocks/spike.png');
 this.load.image('dirt','blocks/dirt.png');
+this.load.image('idirt','blocks/dirt.png');
 this.load.image('bottom','blocks/bottom.png');
 this.load.image('edgel','blocks/edge.png');
 this.load.image('edger', 'blocks/edger.png');
@@ -97,27 +98,49 @@ music.play();
     this.physics.add.collider(this.player, this.dirt);
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
-    this.player.score = parseInt(localStorage.getItem('score')) || 0;
+		this.player.level = 0;
+		this.player.progress = 0;
+		this.player.progressl = 500;
+    		this.player.score = parseInt(localStorage.getItem('score')) || 0;
+    		this.player.level = parseInt(localStorage.getItem('level')) || 0;
+    		this.player.progress = parseInt(localStorage.getItem('progress')) ||0;
+		this.player.progressl = parseInt(localStorage.getItem('progressl')) ||500;
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
 			fontFamily:"Arial Black"
 		}).setScrollFactor(0).setDepth(200);
+	        this.levelText = this.add.text(100,0, "Level: "+this.player.level, {
+		   	fill:"#000000",
+		    	fontSize:"15px",
+		    	fontFaimly:"Arial Black"
+	    	}).setScrollFactor(0).setDepth(200);
+		this.progresslText = this.add.text(200,0, "Level Up In: "+this.player.progressl, {
+		   	fill:"#000000",
+		    	fontSize:"15px",
+		    	fontFaimly:"Arial Black"
+	    	}).setScrollFactor(0).setDepth(200);
 	};
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
+		player.progress+=5;
+		player.progressl-=5;
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
+		this.progresslText.setText("Level Up In: "+this.player.progressl);
     localStorage.setItem('score',this.player.score);
-    if (this.player.score == 500){
-      this.sound.play('complete'); 
-    }else if(this.player.score==1000){
+    localStorage.setItem('progress',this.player.progress);
+    localStorage.setItem('progressl',this.player.progressl);
+    if (this.player.progress == 500){
       this.sound.play('complete');
-    }else if(this.player.score==1500){
-      this.sound.play('complete');
-    }else if(this.player.score===2000){
-      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+      this.player.progress = 0;
+      this.player.progressl = 500;
+      localStorage.setItem('progress',this.player.progress);
+      localStorage.setItem('progressl',this.player.progressl);
     }
 	};
 	this.die = ()=>{
@@ -139,6 +162,7 @@ music.play();
   this.edgel = this.physics.add.staticGroup();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
+	this.idirt = this.physics.add.group();
 	let mapArr = secmap.split('.');
 	let drawX = 0;
 	let drawY = 0;
@@ -167,6 +191,8 @@ music.play();
         this.bottom.create(drawX,drawY, 'bottom');
       }else if(row.charAt(i)==='r'){
         this.bottom.create(drawX,drawY, 'edger');
+      }else if(row.charAt(i)==='g'){
+        this.idirt.create(drawX,drawY, 'idirt');
       }
 			drawX+=18;
 		}
@@ -188,8 +214,13 @@ music.play();
 	this.key_UP = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.UP);
 	this.key_LEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
 	this.key_RIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
+   	this.key_R = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
+
     },
     update: function() {
+	 if(this.key_R.isDown){
+            location.reload();
+	 }   
     	if(this.key_UP.isDown && this.player.body.touching.down){
 		this.player.setVelocityY(-350);
     this.sound.play('jump');
@@ -208,9 +239,3 @@ music.play();
 	}
     }
 });
-    var reset = 0; 
-function resetScore(){
-  alert("You can't undo this! Reload now to save your stuff")
-  localStorage.setItem('score',reset);
-  console.log('Player/User Score Succsessfully Reset');
-};
