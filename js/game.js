@@ -134,16 +134,14 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-    if (this.player.progress == (this.player.progress += this.player.increase)){
+    if (this.player.progress = 500){
       this.sound.play('complete');
       this.player.level += 1;
-      this.player.increase += 5;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
       this.player.progress = 0;
-      this.player.progressl = (this.player.increase+=500);
+      this.player.progressl = 500;
       localStorage.setItem('progress',this.player.progress);
-      localStorage.setItem('increase',this.player.increase);
       localStorage.setItem('progressl',this.player.progressl);
     }
 	};
