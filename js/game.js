@@ -219,7 +219,7 @@ music.play();
     },
     update: function() {
 	 if(this.key_R.isDown){
-	 this.scene.restart();
+	 this.scene.restart("DefaultScene");
 	 }   
     	if(this.key_UP.isDown && this.player.body.touching.down){
 		this.player.setVelocityY(-350);
