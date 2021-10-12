@@ -99,8 +99,10 @@ music.play();
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
 		this.player.level = 0;
-    this.player.score = parseInt(localStorage.getItem('score')) || 0;
-    this.player.level = parseInt(localStorage.getItem('level')) || 0;
+		this.player.progress = 0;
+    		this.player.score = parseInt(localStorage.getItem('score')) || 0;
+    		this.player.level = parseInt(localStorage.getItem('level')) || 0;
+    		this.player.progress = parseInt(localStorage.getItem('progress')) ||0;
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
@@ -111,116 +113,26 @@ music.play();
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
-  this.cliickMenu = this.add.text(300, 0, "Menu", { fill: '#0f0'})
-     .setInteractive()
-     .on('pointerdown', () => this.scene.start("Menu") )
+		this.progressText = this.add.text(200,0, "Level Up In: "+this.player.progress, {
+		   	fill:"#000000",
+		    	fontSize:"15px",
+		    	fontFaimly:"Arial Black"
+	    	}).setScrollFactor(0).setDepth(200);
 	};
 	this.collectCoin = (player, coin)=>{
 		player.score+=10;
+		player.progress+=5;
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
     localStorage.setItem('score',this.player.score);
-    if (this.player.score == 500){
+    if (this.player.progress == 500){
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
-    }else if(this.player.score==1000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score==1500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===2000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===2500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===3000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===3500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===4000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===4500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===5000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===5500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===6000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===6500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===7000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===7500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===8000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===8500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===9000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===9500){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-    }else if(this.player.score===10000){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
+      this.player.progress = 0;
+      localStorage.setItem('progress',this.player.progress);
     }
 	};
 	this.die = ()=>{
