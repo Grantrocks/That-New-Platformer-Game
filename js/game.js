@@ -178,7 +178,6 @@ music.play();
   this.edger = this.physics.add.staticGroup();
   this.dirt = this.physics.add.staticGroup();
   this.edgel = this.physics.add.staticGroup();
-  this.idirt - this.physics.add.group();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	let mapArr = dmap.split('.');
@@ -210,7 +209,7 @@ music.play();
       }else if(row.charAt(i)==='r'){
         this.bottom.create(drawX,drawY, 'edger');
       }else if(row.charAt(i)==='i'){
-        this.bottom.create(drawX,drawY, 'idirt');
+        this.idirt.create(drawX,drawY, 'idirt');
       }
 			drawX+=18;
 		}
