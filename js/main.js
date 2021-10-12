@@ -7,6 +7,8 @@ const phaserConfig = {
     backgroundColor: "#5DACD8",
     scene: [ SceneOne, SceneTwo ]
 };
+            const game = new Phaser.Game(phaserConfig);
+
 /*var config = {
     type: Phaser.AUTO,
     parent: 'game',
