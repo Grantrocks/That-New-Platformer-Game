@@ -108,12 +108,12 @@ music.play();
 			fontSize:"15px",
 			fontFamily:"Arial Black"
 		}).setScrollFactor(0).setDepth(200);
-	        this.levelText = this.add.text(100,0, "Level: "+this.player.level, {
+	        this.levelText = this.add.text(120,0, "Level: "+this.player.level, {
 		   	fill:"#000000",
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
-		this.progressText = this.add.text(200,0, "Level Up In: "+this.player.progress, {
+		this.progressText = this.add.text(200,0, "Level Up At 500: "+this.player.progress, {
 		   	fill:"#000000",
 		    	fontSize:"15px",
 		    	fontFaimly:"Arial Black"
@@ -125,7 +125,7 @@ music.play();
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
-		this.progressText.setText("Level Up In: "+this.player.progress);
+		this.progressText.setText("Level Up At 500: "+this.player.progress);
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     if (this.player.progress == 500){
