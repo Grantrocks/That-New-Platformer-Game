@@ -1,22 +1,15 @@
-// Map for the game
-/*const map = 'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
-            'd                                                                        d.'+
-            'd    c     s     c                                                       d.'+
-            'd 2  p     p     p     p                                                 d.'+
-            'd p                                                                      d.'+
-            'd       p                                                                d.'+
-            'd                                                                        d.'+
-            'd    p     p     p  c  p                             c       sc          d.'+
-            'd p           p     p                                p      ppp          d.'+
-            'd       c                                 c s    pp                      d.'+
-            'd               c                         ppp                            d.'+
-            'd    p     p     p     p              s                                  d.'+
-            'd p     p           p                 p                                  d.'+
-            'd                                p                                       d.'+
-            'd ccccccccccc   s    s         c                                         d.'+
-            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr';*/
-// uncomment if game is broken
-        // The game config that is used by Phaser
+import Welcome from './Welcome'
+import Game from './Game'
+
+const config = {
+  width: 800,
+  height: 600,
+  backgroundColor: 0x000000,
+  scene: [Welcome, Game]
+}
+
+const game = new Phaser.Game(config)
+// The game config that is used by Phaser
 /*var config = {
     type: Phaser.AUTO,
     parent: 'game',
