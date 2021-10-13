@@ -16,6 +16,8 @@ Below are the stats of the contributors. If you would like to apply to be a cont
 [![trophy](https://github-profile-trophy.vercel.app/?username=Grantrocks&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 <br>
 # Updates
+1.1.5: Added a new soundtrack to the map "Devil"
+<br>
 Play on itch.io <a href="https://grantrocks.itch.io/that-new-platformer-game">That New Platformer Game</a>
 <br>
 1.1.4: Added levels new maps, new map linking shortened load time and more!
