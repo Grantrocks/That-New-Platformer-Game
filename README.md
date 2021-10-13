@@ -1,4 +1,5 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/grantrocks/that-new-platformer-game/badge)](https://www.codefactor.io/repository/github/grantrocks/that-new-platformer-game)
+![GitHub all releases](https://img.shields.io/github/downloads/Grantrocks/That-New-Platformer-Game/total)
 ![Release](https://badgen.net/github/release/Grantrocks/That-New-Platformer-Game)
 ![Status](https://badgen.net/github/status/Grantrocks/That-New-Platformer-Game)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Grantrocks/That-New-Platformer-Game?label=Size)
