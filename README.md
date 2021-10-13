@@ -2,6 +2,7 @@
 ![Release](https://badgen.net/github/release/Grantrocks/That-New-Platformer-Game)
 ![Status](https://badgen.net/github/status/Grantrocks/That-New-Platformer-Game)
 ![Downloads](https://badgen.net/github/assets-dl/Grantrocks/That-New-Platformer-Game)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/051198cab686422e8ed177fdfc7f7474)](https://app.codacy.com/gh/Grantrocks/That-New-Platformer-Game?utm_source=github.com&utm_medium=referral&utm_content=Grantrocks/That-New-Platformer-Game&utm_campaign=Badge_Grade_Settings)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Grantrocks/Tha-New-Platformer-Game/commit-activity)
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
