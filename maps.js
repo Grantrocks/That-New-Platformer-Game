@@ -9,19 +9,11 @@ const dmap ='d                                                              d.'+
             'd              p                                          p   cd.'+
             'd                              c s               c s     pp   cd.'+
             'd             c c        c     ppp          c    ppp   cppp   pd.'+
-            'g             ppp        p                             pppp    d.'+
-            'g      2             s             s   c    s     s   pppppsss d.'+
-            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
-            '                                                                .'+
-            '                                                                .'+
-            'p                                                               .'+
-            '    p                                                           .'+
-            '                                                                .'+
-            '         p                                                      .'+
-            '                                                                .'+
-            ' cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc .'+
+ '  c        g             ppp        p                             pppp    d.'+
+ '  p        g      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
-const secmap = '                          c              ccc    p            c  .'+
+
+const secmap = '                          c              ccc    p            c.'+
             '                          p    c         ccc       p         c  .'+
             '                               p     c   ccc          p    p c  .'+
             '               c                     p   ccc               p  c .'+
@@ -32,8 +24,22 @@ const secmap = '                          c              ccc    p            c  
             '  ccc  2             s             s   c    s     s   pppppsss  .'+
             'lbbbb  b    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 
-
-      
+const devil = 'd                                                                                          .'+
+              'd                                                                                          .'+
+              'd                                                                                          .'+
+              'd                                                                                          .'+
+              'd                                                                                          .'+
+              'd                                                                                          .'+
+              'd    2                                                                                     .'+
+              'd           g    g      gggggggg                                                           .'+
+              'd           g    g          g                                                              .'+
+              'd           gggggg          g                                                              .'+
+              'd        cccg    g  ccc     g                                                              .'+
+              'd  pppppppppg    gppppppgggggggg                                                           .'+
+              'd             p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p.'+
+              'd                                                                                          .'+
+              'd            sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscc.'+
+              'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
       
       
       
