@@ -79,7 +79,7 @@ this.load.image('edger', 'blocks/edger.png');
 this.load.image('platform','blocks/platform.png');
 this.load.audio('music','audio/backgroundmusic.mp3');
 this.load.audio('collectcoin', 'audio/collectcoin.wav');
-this.load.audio('complete','audio/DefaultMap.mp3');
+this.load.audio('complete','audio/DefaultMap.wav');
 this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
     },
