@@ -84,8 +84,6 @@ this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
     },
     create: function() {
-	        window.addEventListener('resize', resize);
-    resize();
     // Place the remaining create function code below
         var music = this.sound.add('music');
 music.setLoop(true);
@@ -245,15 +243,3 @@ music.play();
 	}
     }
 });
-function resize() {
-        var canvas = game.canvas, width = document.getElementsByClassName("parent-container")[0].offsetWidth, height = window.innerHeight;
-    var wratio = width / height, ratio = canvas.width / canvas.height;
-
-    if (wratio < ratio) {
-        canvas.style.width = width + 'px';
-        canvas.style.height = (width / ratio) + 'px';
-    } else {
-        canvas.style.width = (height * ratio) + 'px';
-        canvas.style.height = height + 'px';
-    }
-}
