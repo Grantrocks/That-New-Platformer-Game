@@ -4,6 +4,7 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Grantrocks)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
+![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
 <br>
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
