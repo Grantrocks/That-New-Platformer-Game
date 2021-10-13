@@ -1,13 +1,13 @@
 # That New Platformer Game
 ![Release](https://badgen.net/github/release/Grantrocks/That-New-Platformer-Game)
 ![Status](https://badgen.net/github/status/Grantrocks/That-New-Platformer-Game)
-![Downloads](https://badgen.net/github/assets-dl/Grantrocks/That-New-Platformer-Game)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Grantrocks/Tha-New-Platformer-Game/commit-activity)
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
 ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
 ![Stars](	https://img.shields.io/github/stars/Grantrocks/That-New-Platformer-Game)
 ![GitHub all releases](https://img.shields.io/github/downloads/Grantrocks/That-New-Platformer-Game/total?label=Downloads)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/71a98ac841a348ba831286ba8276c855)](https://www.codacy.com/gh/Grantrocks/That-New-Platformer-Game/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Grantrocks/That-New-Platformer-Game&amp;utm_campaign=Badge_Grade)
 <br>
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
