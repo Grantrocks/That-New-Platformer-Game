@@ -5,7 +5,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Grantrocks/Tha-New-Platformer-Game/commit-activity)
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
 ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
-![Stars](	https://img.shields.io/github/stars/Grantrocks/That-New-Platformer-Game)
+![Stars](https://img.shields.io/github/stars/Grantrocks/That-New-Platformer-Game)
 ![GitHub all releases](https://img.shields.io/github/downloads/Grantrocks/That-New-Platformer-Game/total?label=Downloads)
 # That New Platformer Game
 This is a new platformer game where you jump on platforms and collect coins!
