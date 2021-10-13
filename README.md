@@ -8,4 +8,3 @@ Go to the discussions to see any questions or go to issues if you have a issue.
 
 # Community
 Join the community and have fun!
-<html><iframe frameborder="0" src="https://itch.io/embed/1233882" width="552" height="167"><a href="https://grantrocks.itch.io/that-new-platformer-game">That New Platformer Game by Grantrocks</a></iframe></html>
