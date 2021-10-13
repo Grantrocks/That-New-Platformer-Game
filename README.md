@@ -17,6 +17,7 @@ Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
 # Grantrocks's Stats
+![GitHub followers](https://img.shields.io/github/followers/Grantrocks?style=for-the-badge)
 [![trophy](https://github-profile-trophy.vercel.app/?username=Grantrocks&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 <br>
 # <a href="https://github.com/Grantrocks/That-New-Platformer-Game/releases">Updates</a>
