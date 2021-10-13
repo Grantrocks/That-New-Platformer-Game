@@ -19,7 +19,7 @@ Below are the stats of the contributors. If you would like to apply to be a cont
 # Grantrocks's Stats
 ![GitHub followers](https://img.shields.io/github/followers/Grantrocks?style=for-the-badge)
 <br>
-[![trophy](https://github-profile-trophy.vercel.app/?username=Grantrocks&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Grantrocks&show_icons=true&theme=dark)
 <br>
 # <a href="https://github.com/Grantrocks/That-New-Platformer-Game/releases">Updates</a>
 1.1.5: Added a new soundtrack to the map "Devil"
