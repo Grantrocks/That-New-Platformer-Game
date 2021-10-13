@@ -9,8 +9,8 @@ const dmap ='d                                                              d.'+
             'd              p                                          p   cd.'+
             'd                              c s               c s     pp   cd.'+
             'd             c c        c     ppp          c    ppp   cppp   pd.'+
- '  c        g             ppp        p                             pppp    d.'+
- '  p        g      2             s             s   c    s     s   pppppsss d.'+
+            'd             ppp        p                             pppp    d.'+
+            'd      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 
 const secmap = '                          c              ccc    p            c.'+
