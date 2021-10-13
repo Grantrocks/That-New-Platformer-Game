@@ -101,11 +101,11 @@ music.play();
 		this.player.score = 0;
 		this.player.level = 0;
 		this.player.progress = 0;
-		this.player.progressl = 500;
+		this.player.progressl = 800;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
     		this.player.level = parseInt(localStorage.getItem('level')) || 0;
     		this.player.progress = parseInt(localStorage.getItem('progress')) ||0;
-		this.player.progressl = parseInt(localStorage.getItem('progressl')) ||500;
+		this.player.progressl = parseInt(localStorage.getItem('progressl')) ||800;
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
@@ -133,13 +133,13 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-    if (this.player.progress == 500){
+    if (this.player.progress >= 800){
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
       this.player.progress = 0;
-      this.player.progressl = 500;
+      this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
     }
