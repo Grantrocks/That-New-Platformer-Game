@@ -7,6 +7,7 @@
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
 ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
 ![Stars](	https://img.shields.io/github/stars/Grantrocks/That-New-Platformer-Game)
+![GitHub all releases](https://img.shields.io/github/downloads/Grantrocks/That-New-Platformer-Game/total?label=Downloads)
 <br>
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
