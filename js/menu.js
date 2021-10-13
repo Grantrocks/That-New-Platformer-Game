@@ -19,6 +19,9 @@ var Menu = new Phaser.Class({
     this.clickMap2 = this.add.text(310, 200, "GrantM's Map", { fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => this.scene.start("SecMap") )
+    this.clickDevil = this.add.text(270, 250, "Devil", { fill: '#0f0'})
+     .setInteractive()
+     .on('pointerdown', () => this.scene.start("DevilMap") )
     },
     update: function() {
     
