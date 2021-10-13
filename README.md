@@ -2,7 +2,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Grantrocks/That-new-platformer-game)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Grantrocks/That-New-Platformer-Game)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Grantrocks/That-New-Platformer-Game?label=Size)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Grantrocks/Tha-New-Platformer-Game/commit-activity)
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
 ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
@@ -11,6 +10,9 @@
 ![Discord](https://img.shields.io/discord/897977677120684102)
 # That New Platformer Game
 ![Website](https://img.shields.io/website?down_color=red&down_message=Offline&style=for-the-badge&up_color=grren&up_message=Online&url=https%3A%2F%2Ftnpg.netlify.app)
+<br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
+<br>
 This is a new platformer game where you jump on platforms and collect coins!
 Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
