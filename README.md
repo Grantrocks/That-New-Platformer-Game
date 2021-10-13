@@ -1,4 +1,3 @@
-# That New Platformer Game
 ![Release](https://badgen.net/github/release/Grantrocks/That-New-Platformer-Game)
 ![Status](https://badgen.net/github/status/Grantrocks/That-New-Platformer-Game)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
@@ -7,17 +6,14 @@
 ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
 ![Stars](	https://img.shields.io/github/stars/Grantrocks/That-New-Platformer-Game)
 ![GitHub all releases](https://img.shields.io/github/downloads/Grantrocks/That-New-Platformer-Game/total?label=Downloads)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/71a98ac841a348ba831286ba8276c855)](https://www.codacy.com/gh/Grantrocks/That-New-Platformer-Game/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Grantrocks/That-New-Platformer-Game&amp;utm_campaign=Badge_Grade)
-<br>
+# That New Platformer Game
+This is a new platformer game where you jump on platforms and collect coins!
+Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
 # Grantrocks's Stats
 [![trophy](https://github-profile-trophy.vercel.app/?username=Grantrocks&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 <br>
-# About
-This is a new platformer game where you jump on platforms and collect coins!
-Go to the discussions to see any questions or go to issues if you have a issue.
-
 # Updates
 Play on itch.io <a href="https://grantrocks.itch.io/that-new-platformer-game">That New Platformer Game</a>
 <br>
