@@ -10,6 +10,7 @@
 ![GitHub](https://img.shields.io/github/license/Grantrocks/That-New-Platformer-Game)
 ![Discord](https://img.shields.io/discord/897977677120684102)
 # That New Platformer Game
+![Website](https://img.shields.io/website?down_color=red&down_message=Offline&style=for-the-badge&up_color=grren&up_message=Online&url=https%3A%2F%2Ftnpg.netlify.app)
 This is a new platformer game where you jump on platforms and collect coins!
 Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
