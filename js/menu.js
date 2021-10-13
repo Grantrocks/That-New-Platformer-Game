@@ -15,7 +15,7 @@ var Menu = new Phaser.Class({
 
     this.clickButton = this.add.text(260, 150, 'Original Map', { fill: '#0f0'})
      .setInteractive()
-     .on('pointerdown', () => this.scene.start("DefaultMap"), this.scene.stop())
+     .on('pointerdown', () => this.scene.start("DefaultMap"), this.scene.stop('Menu'))
     this.clickMap2 = this.add.text(310, 200, "GrantM's Map", { fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => this.scene.start("SecMap") )
