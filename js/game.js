@@ -216,14 +216,10 @@ music.play();
 	this.key_LEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
 	this.key_RIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
    	this.key_R = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
-   	this.key_M = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.M);
     },
     update: function() {
 	 if(this.key_R.isDown){
             location.reload();
-	 }
-	 if(this.key_M.isDown){
-	 this.scene.start('Menu');
 	 }
     	if(this.key_UP.isDown && this.player.body.touching.down){
 		this.player.setVelocityY(-350);
