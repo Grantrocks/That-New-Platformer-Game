@@ -10,7 +10,7 @@ const dmap ='d                                                              d.'+
             'd                              c s               c s     pp   cd.'+
             'd             c c        c     ppp          c    ppp   cppp   pd.'+
             'd             ppp        p                             pppp    d.'+
-            'd      2   q         s             s   c    s     s   pppppsss d.'+
+            'd      2             s             s   c    s     s   pppppsss d.'+
             'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 
 const secmap = '                          c              ccc    p            c.'+
