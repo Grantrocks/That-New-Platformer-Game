@@ -145,7 +145,7 @@ if (this.player.progress >= 800){
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
     }
-this.collectDiamond = (player, diamond)=>{
+/*this.collectDiamond = (player, diamond)=>{
 		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
@@ -165,7 +165,7 @@ if (this.player.progress >= 800){
       this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
-    }
+    }*/
 	};
 
 	this.die = ()=>{
