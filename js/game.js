@@ -88,6 +88,7 @@ this.load.audio('jump', 'audio/Jump.wav');
         var music = this.sound.add('music');
 music.setLoop(true);
 music.play();
+	// global variables
 	this.cameras.main.setBackgroundColor('#ffffff');
 	this.spawnPlayer = (x, y)=>{
 		this.player = this.physics.add.sprite(x, y, "player", "1");
