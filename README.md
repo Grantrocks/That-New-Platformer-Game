@@ -1,5 +1,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/grantrocks/that-new-platformer-game/badge)](https://www.codefactor.io/repository/github/grantrocks/that-new-platformer-game)
 ![GitHub language count](https://img.shields.io/github/languages/count/Grantrocks/That-new-platformer-game)
+![Lines of code](https://img.shields.io/tokei/lines/github/Grantrocks/That-New-Platformer-Game)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Grantrocks/That-New-Platformer-Game)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Grantrocks/That-New-Platformer-Game?label=Size)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Grantrocks/Tha-New-Platformer-Game/commit-activity)
