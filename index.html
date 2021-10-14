@@ -14,6 +14,14 @@
 <script src="js/menu.js"></script>
 <script src="js/main.js"></script>
 <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://static.itch.io/api.js"></script>
+<script type="text/javascript">
+  Itch.attachBuyButton(document.getElementById("buy_button"), {
+    // replace the following with the correct information about your game
+    user: "leafo",
+    game: "x-moon"
+  });
+</script>
 </head>
 <body>
 <h1 class="headcenter">That New Platformer Game</h1>
@@ -33,6 +41,9 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Feedback</a>
+    </li>
+    <li class="nav-item">
+        <button id="buy_button">Buy My Game!</button>
     </li>
   </ul>
     </nav>
