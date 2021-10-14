@@ -70,7 +70,6 @@ var DefaultMap = new Phaser.Class({
             }
 this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.json');
 this.load.atlas('coin','blocks/gcoin.png', 'blocks/gcoin.json');
-this.load.atlas('rcoin','blocks/rcoin.png', 'blocks/rcoin.json');
 this.load.image('spike','blocks/spike.png');
 this.load.image('dirt','blocks/dirt.png');
 this.load.image('idirt','blocks/dirt.png');
@@ -124,8 +123,8 @@ music.play();
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
 	};
-	this.collectCoin = (player, coin, rcoin)=>{
-		player.score+=(Math.floor(Math.random() * 10) + 1);
+	this.collectCoin = (player, coin)=>{
+		player.score+=(Math.floor(Math.random() * 15) + 1);
 		player.progress+=5;
 		player.progressl-=5;
     this.sound.play('collectcoin');
@@ -171,7 +170,6 @@ if (this.player.progress == 800){
   this.edger = this.physics.add.staticGroup();
   this.dirt = this.physics.add.staticGroup();
   this.edgel = this.physics.add.staticGroup();
-	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	this.idirt = this.physics.add.group();
 	let mapArr = dmap.split('.');
@@ -204,8 +202,6 @@ if (this.player.progress == 800){
         this.bottom.create(drawX,drawY, 'edger');
       }else if(row.charAt(i)==='g'){
         this.idirt.create(drawX,drawY, 'idirt');
-      }else if(row.charAt(i)==='q'){
-        this.rcoin.create(drawX,drawY, 'rcoin');
       }
 			drawX+=18;
 		}
