@@ -5,7 +5,7 @@ var Menu = new Phaser.Class({
     },
     init: function() {},
     preload: function() {
-    this.load.audio('music', 'audio/menu.mp3');
+    this.load.audio('music', 'audio/Menu.mp3');
     },
     create: function() {
                 var music = this.sound.add('music');
