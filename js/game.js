@@ -232,8 +232,7 @@ if (this.player.progress == 800){
 		}
 		drawY+=18;
 	});
-	this.physics.add.overlap(this.player, this.coins, this.collectCoin, null, this);
-	this.physics.add.overlap(this.player, this.coins, this.collectRCoin, null, this);
+	this.physics.add.overlap(this.player, this.coins, this.collectCoin, this.collectRCoin, null, this);
 	this.physics.add.overlap(this.player, this.spikes, this.die, null, this);
 	this.anims.create({
 		key:"walk",
