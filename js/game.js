@@ -1,3 +1,4 @@
+ 
 var DefaultMap = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
@@ -124,7 +125,7 @@ music.play();
 	    	}).setScrollFactor(0).setDepth(200);
 	};
 	this.collectCoin = (player, coin)=>{
-		player.score+=(Math.floor(Math.random() * 15) + 1);
+		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
     this.sound.play('collectcoin');
@@ -134,7 +135,7 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-if (this.player.progress == 800){
+if (this.player.progress >= 800){
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
@@ -170,6 +171,7 @@ if (this.player.progress == 800){
   this.edger = this.physics.add.staticGroup();
   this.dirt = this.physics.add.staticGroup();
   this.edgel = this.physics.add.staticGroup();
+	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	this.idirt = this.physics.add.group();
 	let mapArr = dmap.split('.');
@@ -189,7 +191,7 @@ if (this.player.progress == 800){
 					this.spawnPlayer(drawX, drawY-12);					
 				}
 			}else if(row.charAt(i)==='c'){
-				this.coins.create(drawX, drawY+1, "rcoin").play('coin', 6, true);
+				this.coins.create(drawX, drawY+1, "coin").play('coin', 6, true);
 			}else if(row.charAt(i)==='s'){
 				this.spikes.create(drawX, drawY+1, "spike");
 			}else if(row.charAt(i)==='d'){
