@@ -160,6 +160,13 @@ music.play();
 			fontSize:"50px"
 		}).setScrollFactor(0);
 		Phaser.Display.Align.In.Center(deathText, this.add.zone(400, 250, 800, 500));
+		this.time.addEvent({
+        delay: 3000,
+        loop: false,
+        callback: () => {
+            this.scene.start("DefaultMap");
+        }
+    })
 	};
         this.anims.create({
 		key:"coin",
