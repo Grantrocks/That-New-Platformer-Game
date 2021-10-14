@@ -162,7 +162,6 @@ music.play();
 			frameRate:6,
 			repeat:1
 	});
-	this.anims.play("coin", true);
 	this.platforms = this.physics.add.staticGroup();
   this.bottom = this.physics.add.staticGroup();
   this.edger = this.physics.add.staticGroup();
@@ -188,7 +187,7 @@ music.play();
 					this.spawnPlayer(drawX, drawY-12);					
 				}
 			}else if(row.charAt(i)==='c'){
-				this.coins.create(drawX, drawY+1, "coin");
+				this.coins.create(drawX, drawY+1, "coin").play('coin');
 			}else if(row.charAt(i)==='s'){
 				this.spikes.create(drawX, drawY+1, "spike");
 			}else if(row.charAt(i)==='d'){
