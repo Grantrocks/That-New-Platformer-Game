@@ -164,7 +164,7 @@ music.play();
         delay: 3000,
         loop: false,
         callback: () => {
-            this.scene.start("DefaultMap");
+            location.reload();
         }
     })
 	};
