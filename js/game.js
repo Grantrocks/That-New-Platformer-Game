@@ -69,7 +69,7 @@ var DefaultMap = new Phaser.Class({
                 this.load.image('logo'+i, 'logo.png');
             }
 this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.json');
-this.load.image('coin','blocks/coin.png');
+this.load.atlas('coin','blocks/gcoin.png', 'blocks/gcoin.json');
 this.load.image('spike','blocks/spike.png');
 this.load.image('dirt','blocks/dirt.png');
 this.load.image('idirt','blocks/dirt.png');
@@ -156,6 +156,13 @@ music.play();
 		}).setScrollFactor(0);
 		Phaser.Display.Align.In.Center(deathText, this.add.zone(400, 250, 800, 500));
 	};
+    	this.anims.create({
+		key:"coin",
+			frames:[{key:"coin", frame:"0"}, {key:"coin", frame:"1"}],
+			frameRate:6,
+			repeat:1
+	});
+	this.player.anims.play("coin", true);
 	this.platforms = this.physics.add.staticGroup();
   this.bottom = this.physics.add.staticGroup();
   this.edger = this.physics.add.staticGroup();
