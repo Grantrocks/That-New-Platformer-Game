@@ -17,11 +17,12 @@ Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
 # Grantrocks's Stats
+<a href="https://www.patreon.com/Grantrocks" target="_blank">Join my patreon.</a>
+<br>
 ![GitHub followers](https://img.shields.io/github/followers/Grantrocks?style=for-the-badge)
 <br>
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Grantrocks&show_icons=true&theme=dark)
 <br>
-## <a href="https://www.patreon.com/Grantrocks" target="_blank">Join my patreon.</a>
 # <a href="https://github.com/Grantrocks/That-New-Platformer-Game/releases">Updates</a>
 1.1.5: Added a new soundtrack to the map "Devil"
 <br>
