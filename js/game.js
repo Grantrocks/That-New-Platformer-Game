@@ -144,8 +144,8 @@ if (this.player.progress >= 800){
       this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
-    }
-/*this.collectDiamond = (player, diamond)=>{
+    };
+this.collectDiamond = (player, diamond)=>{
 		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
@@ -165,7 +165,7 @@ if (this.player.progress >= 800){
       this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
-    }*/
+    }
 	};
 
 	this.die = ()=>{
@@ -226,6 +226,8 @@ if (this.player.progress >= 800){
         this.bottom.create(drawX,drawY, 'edger');
       }else if(row.charAt(i)==='g'){
         this.idirt.create(drawX,drawY, 'idirt');
+      }else if(row.charAt(i)==='q'){
+        this.diamond.create(drawX,drawY, 'diamond');
       }
 			drawX+=18;
 		}
@@ -233,6 +235,7 @@ if (this.player.progress >= 800){
 	});
 	this.physics.add.overlap(this.player, this.coins, this.collectCoin, null, this);
 	this.physics.add.overlap(this.player, this.spikes, this.die, null, this);
+	this.physics.add.overlap(this.player, this.diamonds, this.collectDiamond, null, this);
 	this.anims.create({
 		key:"walk",
 			frames:[{key:"player", frame:"1"}, {key:"player", frame:"0"}],
