@@ -82,6 +82,7 @@ this.load.audio('collectcoin', 'audio/collectcoin.wav');
 this.load.audio('complete','audio/complete.mp3');
 this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
+this.load.image('diamond', 'blocks/d.png');
     },
     create: function() {
     // Place the remaining create function code below
@@ -134,7 +135,9 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-    if (this.player.progress >= 800){
+
+	};
+if (this.player.progress >= 800){
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
@@ -143,8 +146,7 @@ music.play();
       this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
-    }
-	};
+    };
 	this.die = ()=>{
 		this.physics.pause();
     this.player.score-=100;
