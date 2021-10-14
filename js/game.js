@@ -84,7 +84,6 @@ this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
     },
     create: function() {
-	    this.sound.get(‘music’).stop();
     // Place the remaining create function code below
         var music = this.sound.add('music');
 music.setLoop(true);
