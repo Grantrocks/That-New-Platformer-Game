@@ -29,7 +29,7 @@ music.play();
      .on('pointerdown', () => {this.scene.start("DevilMap")} )
     },
     update: function() {
-    
+    music.stop();
     }
 });
 function openExternalLink ()
