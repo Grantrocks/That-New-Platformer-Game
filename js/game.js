@@ -187,7 +187,7 @@ music.play();
 					this.spawnPlayer(drawX, drawY-12);					
 				}
 			}else if(row.charAt(i)==='c'){
-				this.coins.create(drawX, drawY+1, "coin").play('coin');
+				this.coins.create(drawX, drawY+1, "coin").play('coin', true);
 			}else if(row.charAt(i)==='s'){
 				this.spikes.create(drawX, drawY+1, "spike");
 			}else if(row.charAt(i)==='d'){
