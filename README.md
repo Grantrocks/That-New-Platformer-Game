@@ -12,8 +12,6 @@
 ![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&up_color=green&up_message=Online&url=https%3A%2F%2Ftnpg.netlify.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
 <br>
-<a href="https://www.patreon.com/bePatron?u=63119953" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-<br>
 This is a new platformer game where you jump on platforms and collect coins!
 Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
@@ -23,6 +21,7 @@ Below are the stats of the contributors. If you would like to apply to be a cont
 <br>
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Grantrocks&show_icons=true&theme=dark)
 <br>
+## <a href="https://www.patreon.com/Grantrocks" target="_blank">Join my patreon.</a>
 # <a href="https://github.com/Grantrocks/That-New-Platformer-Game/releases">Updates</a>
 1.1.5: Added a new soundtrack to the map "Devil"
 <br>
