@@ -100,6 +100,7 @@ music.play();
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
 		this.player.level = 0;
+		var coins = 30;
 		this.player.progress = 0;
 		this.player.progressl = 800;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
@@ -126,6 +127,7 @@ music.play();
 		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
+		coins -= 1;
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
@@ -143,6 +145,9 @@ music.play();
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
     }
+	if(coins==0){
+	location.reload();
+	}
 	};
 	this.die = ()=>{
 		this.physics.pause();
