@@ -4,8 +4,13 @@ var Menu = new Phaser.Class({
         Phaser.Scene.call(this, { "key": "Menu" });
     },
     init: function() {},
-    preload: function() {},
+    preload: function() {
+    this.load.audio('music', 'audio/menu.mp3');
+    },
     create: function() {
+                var music = this.sound.add('music');
+music.setLoop(true);
+music.play();
     var button = this.add.text(0, 0, 'Repository', {fill: '#0f0'}).setInteractive();
 
     button.on('pointerup', openExternalLink, this);
