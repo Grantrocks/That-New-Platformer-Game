@@ -226,8 +226,6 @@ if (this.player.progress >= 800){
         this.bottom.create(drawX,drawY, 'edger');
       }else if(row.charAt(i)==='g'){
         this.idirt.create(drawX,drawY, 'idirt');
-      }else if(row.charAt(i)==='q'){
-        this.diamond.create(drawX,drawY, 'diamond');
       }
 			drawX+=18;
 		}
@@ -235,7 +233,6 @@ if (this.player.progress >= 800){
 	});
 	this.physics.add.overlap(this.player, this.coins, this.collectCoin, null, this);
 	this.physics.add.overlap(this.player, this.spikes, this.die, null, this);
-	this.physics.add.overlap(this.player, this.diamonds, this.collectDiamond, null, this);
 	this.anims.create({
 		key:"walk",
 			frames:[{key:"player", frame:"1"}, {key:"player", frame:"0"}],
