@@ -145,6 +145,27 @@ if (this.player.progress >= 800){
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
     }
+	this.collectCoin = (player, rcoin)=>{
+		player.score+=(Math.floor(Math.random() * 10) + 1);
+		player.progress+=5;
+		player.progressl-=5;
+    this.sound.play('collectcoin');
+		coin.destroy();
+		this.scoreText.setText("Score: "+ this.player.score);
+		this.progresslText.setText("Level Up In: "+this.player.progressl);
+    localStorage.setItem('score',this.player.score);
+    localStorage.setItem('progress',this.player.progress);
+    localStorage.setItem('progressl',this.player.progressl);
+if (this.player.progress >= 800){
+      this.sound.play('complete');
+      this.player.level += 1;
+      this.levelText.setText("Level: "+this.player.level);
+      localStorage.setItem('level',this.player.level);
+      this.player.progress = 0;
+      this.player.progressl = 800;
+      localStorage.setItem('progress',this.player.progress);
+      localStorage.setItem('progressl',this.player.progressl);
+    }
 	};
 
 	this.die = ()=>{
@@ -191,7 +212,7 @@ if (this.player.progress >= 800){
 					this.spawnPlayer(drawX, drawY-12);					
 				}
 			}else if(row.charAt(i)==='c'){
-				this.coins.create(drawX, drawY+1, "coin").play('coin', 6, true);
+				this.coins.create(drawX, drawY+1, "rcoin").play('coin', 6, true);
 			}else if(row.charAt(i)==='s'){
 				this.spikes.create(drawX, drawY+1, "spike");
 			}else if(row.charAt(i)==='d'){
