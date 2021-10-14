@@ -145,7 +145,7 @@ if (this.player.progress >= 800){
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
     };
-this.collectDiamond = (player, diamond)=>{
+this.getDiamond = (player, diamond)=>{
 		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
@@ -235,7 +235,7 @@ if (this.player.progress >= 800){
 	});
 	this.physics.add.overlap(this.player, this.coins, this.collectCoin, null, this);
 	this.physics.add.overlap(this.player, this.spikes, this.die, null, this);
-	this.physics.add.overlap(this.player, this.diamonds, this.collectDiamond, null, this);
+	this.physics.add.overlap(this.player, this.diamonds, this.getDiamond, null, this);
 	this.anims.create({
 		key:"walk",
 			frames:[{key:"player", frame:"1"}, {key:"player", frame:"0"}],
