@@ -4,10 +4,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Grantrocks/That-New-Platformer-Game?label=Size)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Grantrocks/Tha-New-Platformer-Game/commit-activity)
 ![Issues](https://img.shields.io/github/issues/Grantrocks/That-New-Platformer-Game)
-![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantrocks%2FThat-New-Platformer-Game)
 ![Stars](https://img.shields.io/github/stars/Grantrocks/That-New-Platformer-Game)
 ![GitHub](https://img.shields.io/github/license/Grantrocks/That-New-Platformer-Game)
 ![Discord](https://img.shields.io/discord/897977677120684102)
+![GitHub all releases](https://img.shields.io/github/downloads/Grantrocks/that-new-platformer-game/total)
 # That New Platformer Game
 ![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&up_color=green&up_message=Online&url=https%3A%2F%2Ftnpg.netlify.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
