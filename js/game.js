@@ -3,7 +3,7 @@ var DefaultMap = new Phaser.Class({
     initialize: function() {
         Phaser.Scene.call(this, { "key": "DefaultMap" });
     },
-    init: function() {this.sound.get(‘Music’).stop();},
+    init: function() {},
     preload: function() {
           var progressBar = this.add.graphics();
             var progressBox = this.add.graphics();
@@ -84,6 +84,7 @@ this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
     },
     create: function() {
+	    this.sound.get(‘Music’).stop();
     // Place the remaining create function code below
         var music = this.sound.add('music');
 music.setLoop(true);
