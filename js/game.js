@@ -70,6 +70,7 @@ var DefaultMap = new Phaser.Class({
             }
 this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.json');
 this.load.atlas('coin','blocks/gcoin.png', 'blocks/gcoin.json');
+this.load.atlas('rcoin','blocks/rcoin.png', 'blocks/rcoin.json');
 this.load.image('spike','blocks/spike.png');
 this.load.image('dirt','blocks/dirt.png');
 this.load.image('idirt','blocks/dirt.png');
