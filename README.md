@@ -12,6 +12,8 @@
 ![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&up_color=green&up_message=Online&url=https%3A%2F%2Ftnpg.netlify.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
 <br>
+<a href="https://www.patreon.com/bePatron?u=63119953" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<br>
 This is a new platformer game where you jump on platforms and collect coins!
 Go to the discussions to see any questions or go to issues if you have a issue.
 # Contributor Stats
