@@ -1,7 +1,7 @@
 {
 	"frames": [
 		{
-			"filename": "sprite_0.png",
+			"filename": "0",
 			"frame": {
 				"x": 1,
 				"y": 1,
@@ -22,7 +22,7 @@
 			}
 		},
 		{
-			"filename": "sprite_1.png",
+			"filename": "1",
 			"frame": {
 				"x": 35,
 				"y": 1,
