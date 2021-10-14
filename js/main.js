@@ -22,4 +22,4 @@ function resetScore(){
   localStorage.setItem('progressl',reset);
   console.log('Player/User Stats Succsessfully Reset');
   alert('Player/User Stats Succsessfully Reset');
-};
+}
