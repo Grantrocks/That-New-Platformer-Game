@@ -26,7 +26,7 @@ music.play();
      .on('pointerdown', () => this.scene.start("SecMap"), music.stop() )
     this.clickDevil = this.add.text(270, 250, "Devil", { fill: '#0f0'})
      .setInteractive()
-     .on('pointerdown', () => this.scene.start("DevilMap"), music.stop() )
+     .on('pointerdown', () => {this.scene.start("DevilMap"), music.stop()} )
     },
     update: function() {
     
