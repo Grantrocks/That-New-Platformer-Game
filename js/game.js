@@ -1,4 +1,3 @@
- 
 var DefaultMap = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
@@ -135,7 +134,9 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-if (this.player.progress == 800){
+
+	};
+if (this.player.progress >= 800){
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
@@ -144,9 +145,7 @@ if (this.player.progress == 800){
       this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
-    }
-	};
-
+    };
 	this.die = ()=>{
 		this.physics.pause();
     this.player.score-=100;
