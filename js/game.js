@@ -124,31 +124,10 @@ music.play();
 		    	fontFaimly:"Arial Black"
 	    	}).setScrollFactor(0).setDepth(200);
 	};
-	this.collectCoin = (player, coin)=>{
+	this.collectCoin = (player, coin, rcoin)=>{
 		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
-    this.sound.play('collectcoin');
-		coin.destroy();
-		this.scoreText.setText("Score: "+ this.player.score);
-		this.progresslText.setText("Level Up In: "+this.player.progressl);
-    localStorage.setItem('score',this.player.score);
-    localStorage.setItem('progress',this.player.progress);
-    localStorage.setItem('progressl',this.player.progressl);
-if (this.player.progress == 800){
-      this.sound.play('complete');
-      this.player.level += 1;
-      this.levelText.setText("Level: "+this.player.level);
-      localStorage.setItem('level',this.player.level);
-      this.player.progress = 0;
-      this.player.progressl = 800;
-      localStorage.setItem('progress',this.player.progress);
-      localStorage.setItem('progressl',this.player.progressl);
-    }
-this.collectRCoin = (player, rcoin)=>{
-		player.score+=(Math.floor(Math.random() * 10) + 1);
-		player.progress+=20;
-		player.progressl-=20;
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
@@ -232,7 +211,7 @@ if (this.player.progress == 800){
 		}
 		drawY+=18;
 	});
-	this.physics.add.overlap(this.player, this.coins, this.collectCoin, this.collectRCoin, null, this);
+	this.physics.add.overlap(this.player, this.coins, this.collectCoin, null, this);
 	this.physics.add.overlap(this.player, this.spikes, this.die, null, this);
 	this.anims.create({
 		key:"walk",
