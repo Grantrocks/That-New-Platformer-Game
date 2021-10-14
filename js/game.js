@@ -162,7 +162,7 @@ music.play();
 			frameRate:6,
 			repeat:1
 	});
-	this.coin.anims.play("coin", true);
+	this.anims.play("coin", true);
 	this.platforms = this.physics.add.staticGroup();
   this.bottom = this.physics.add.staticGroup();
   this.edger = this.physics.add.staticGroup();
