@@ -3,7 +3,7 @@ var DefaultMap = new Phaser.Class({
     initialize: function() {
         Phaser.Scene.call(this, { "key": "DefaultMap" });
     },
-    init: function() {},
+    init: function() {this.sound.get(‘Music’).stop();},
     preload: function() {
           var progressBar = this.add.graphics();
             var progressBox = this.add.graphics();
