@@ -156,7 +156,12 @@ music.play();
 		}).setScrollFactor(0);
 		Phaser.Display.Align.In.Center(deathText, this.add.zone(400, 250, 800, 500));
 	};
-    this.coin.animations.add('coin');
+        this.anims.create({
+		key:"coin",
+			frames:[{key:"coin", frame:"0"}, {key:"coin", frame:"1"}],
+			frameRate:6,
+			repeat:-1
+	});
 
 	this.platforms = this.physics.add.staticGroup();
   this.bottom = this.physics.add.staticGroup();
