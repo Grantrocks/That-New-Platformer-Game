@@ -5,7 +5,7 @@ var Menu = new Phaser.Class({
     },
     init: function() {},
     preload: function() {
-            this.load.image('background', 'background.png');
+            this.load.image('background', 'images/background.png');
     },
     create: function() {
             this.add.sprite(0, 0, 'background');
