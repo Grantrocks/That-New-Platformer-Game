@@ -1,0 +1,9 @@
+{
+  "name": "TNPG Stats",
+  "description": "View all of your stats for That New Platformer Game and click play to play the game.",
+  "version": "1.0",
+  "manifest_version": 3
+  "background": {
+    "service_worker": "background.js"
+  }
+}
