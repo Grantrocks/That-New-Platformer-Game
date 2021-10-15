@@ -1,7 +1,7 @@
-var DefaultMap = new Phaser.Class({
+var GUMap = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function() {
-        Phaser.Scene.call(this, { "key": "DefaultMap" });
+        Phaser.Scene.call(this, { "key": "GUMap" });
     },
     init: function() {},
     preload: function() {
@@ -100,7 +100,7 @@ music.play();
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
 		this.player.level = 0;
-		this.player.coins = 30;
+		this.player.coins = 67;
 		this.player.progress = 0;
 		this.player.progressl = 800;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
@@ -146,19 +146,8 @@ music.play();
       localStorage.setItem('progressl',this.player.progressl);
     }
 	if(this.player.coins==0){
-		this.physics.pause();
-		let deathText = this.add.text(0, 0, "YOU WIN", {
-			color:"#d53636",
-			fontFamily:"Arial Black",
-			fontSize:"50px"
-		}).setScrollFactor(0);
-		Phaser.Display.Align.In.Center(deathText, this.add.zone(400, 250, 800, 500));
-		this.time.addEvent({
-			delay: 2000,
-			loop: false,
-			callback: () => {
 	location.reload();
-	}}
+	}
 	};
 	this.die = ()=>{
 		this.physics.pause();
@@ -194,7 +183,7 @@ music.play();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	this.idirt = this.physics.add.group();
-	let mapArr = dmap.split('.');
+	let mapArr = goingup.split('.');
 	let drawX = 0;
 	let drawY = 0;
 		mapArr.forEach(row=>{
