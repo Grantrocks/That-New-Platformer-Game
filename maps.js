@@ -74,10 +74,38 @@ const df =     '                                dddddddddddddddddddddddddddddddd
                '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
                '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
                '                                lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
-
-      
-      
-      
+const goingup = 'd                                                                                                                                                                                                                   d.'+
+                'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                                                                                                                                                                                   d.'+
+            'd                                                           s  cc  s                                              s        s c s       d           d          d                                                     d.'+
+            'd                                                         pppppppppppp                                           ddd       ppppp                                                                                    d.'+
+            'd                                                     c                 d                                     p                                                                                                     d.'+
+            'd                                                     p                   d                                c                                                     d                                                  d.'+
+            'd                                                                                                          p                                                                                                        d.'+
+            'd                                                 p                          d                                                                                                                                      d.'+
+            'd                                                                                                       p                                                           d                                               d.'+
+            'd                                             p                                 d                    c                                                                                                              d.'+
+            'd                                                                                                    p                                                                 d                                            d.'+
+            'd                                         p                                        d                                                                                                                                d.'+
+            'd                                   cc                                                cccccccc    p                                                                      d                                          d.'+
+            'd                                   pp                                               dddddddddd                                                                                                                     d.'+
+            'd                             c                                                                                                                                           d                                         d.'+
+            'd                             d                                                                                                                                                                                     d.'+
+            'd                        pp                                                                                                                                                                                         d.'+
+            'd                                                                                                                                                                           d                                       d.'+
+            'd                   ccc                                                                                                                                                                                             d.'+
+            'd                 ppppp                                                                                                                                                        d        c     c   ccccc     ccccccc d.'+
+            'd           c                                                                                                                                                                           c     c   c     c   c      cd.'+
+            'd          ddd                                                                                                                                                                          c     c   c    c    c      cd.'+
+            'd                                                                                                                                                                                d      c     c   cc        c     c d.'+
+            'd   2                                                                                                                                                                            d      ccccccc   c   c     ccccc   d.'+
+            'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
       
       
       
