@@ -11,7 +11,7 @@ const phaserConfig = {
             debug: false
         }
     },
-    scene: [ Menu, DefaultMap, SecMap, DevilMap, DFMap ]
+    scene: [ Menu, DefaultMap, SecMap, DevilMap, DFMap, GUMap ]
 };
             const game = new Phaser.Game(phaserConfig);
 var reset = 0; 
