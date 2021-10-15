@@ -147,12 +147,6 @@ music.play();
     }
 	if(this.player.coins==0){
 		this.physics.pause();
-		let winText = this.add.text(0, 0, "YOU WIN", {
-			color:"#d53636",
-			fontFamily:"Arial Black",
-			fontSize:"50px"
-		}).setScrollFactor(0);
-		Phaser.Display.Align.In.Center(winText, this.add.zone(400, 250, 800, 500));
 		this.time.addEvent({
 			delay: 2000,
 			loop: false,
