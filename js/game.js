@@ -146,13 +146,8 @@ music.play();
       localStorage.setItem('progressl',this.player.progressl);
     }
 	if(this.player.coins==0){
-		this.physics.pause();
-		this.time.addEvent({
-			delay: 2000,
-			loop: false,
-			callback: () => {
 	location.reload();
-	}}
+	}
 	};
 	this.die = ()=>{
 		this.physics.pause();
