@@ -5,8 +5,10 @@ var Menu = new Phaser.Class({
     },
     init: function() {},
     preload: function() {
+            this.load.image('background', 'background.png');
     },
     create: function() {
+            this.add.sprite(0, 0, 'background');
     var button = this.add.text(0, 0, 'Repository', {fill: '#0f0'}).setInteractive();
 
     button.on('pointerup', openExternalLink, this);
