@@ -26,6 +26,9 @@ var Menu = new Phaser.Class({
     this.clickDontFall = this.add.text(220, 280, "Don't Fall!", { fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("DFMap")} )
+    this.clickDontFall = this.add.text(290, 220, "Going Up", { fill: '#0f0'})
+     .setInteractive()
+     .on('pointerdown', () => {this.scene.start("GUMap")} )
     },
     update: function() {
     }
