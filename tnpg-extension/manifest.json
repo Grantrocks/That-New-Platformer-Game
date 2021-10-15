@@ -1,16 +1,15 @@
 {
-  "name": "TNPG Stats",
-  "description": "View all of your stats for That New Platformer Game and click play to play the game.",
+  "name": "That New Platformer Game",
+  "description": "Stats",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "options_page": "options.html",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html",
-      "default_icon": {
+    "default_icon": {
       "18": "/images/logo.png"
     }
   },
