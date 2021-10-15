@@ -100,7 +100,7 @@ music.play();
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
 		this.player.level = 0;
-		this.player.coins = 30;
+		this.player.coins = 355;
 		this.player.progress = 0;
 		this.player.progressl = 800;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
