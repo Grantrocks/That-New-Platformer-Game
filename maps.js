@@ -41,8 +41,8 @@ const devil = 'd                                                                
               'd            sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscc.'+
               'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
 const df =     '                                ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
-               '                                d                                                                                                           d.'+
-               '                                d                                                                                                           d.'+
+               '                                g                                                                                                           d.'+
+               '                                g                                                                                                           d.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                               c                   ccccccccd.'+
                '                                d   2         ccccccccc           sccs                  c      sccc             p    cc             ccccccccd.'+
@@ -58,8 +58,8 @@ const df =     '                                dddddddddddddddddddddddddddddddd
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
-               '                                d  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd.'+
-               '                                l  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
+               '                                dsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd.'+
+               '                                lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
@@ -68,8 +68,8 @@ const df =     '                                dddddddddddddddddddddddddddddddd
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
-               '                                d                                                                                                           d.'+
-               '                                d                                                                                                           d.'+
+               '                                g                                                                                                           d.'+
+               '                                g                                                                                                           d.'+
                '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
                '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
                '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
