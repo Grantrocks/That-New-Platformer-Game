@@ -5,10 +5,8 @@ var Menu = new Phaser.Class({
     },
     init: function() {},
     preload: function() {
-    this.load.audio('music', 'audio/Menu.mp3');
     },
     create: function() {
-    music = this.sound.add('music');
     var button = this.add.text(0, 0, 'Repository', {fill: '#0f0'}).setInteractive();
 
     button.on('pointerup', openExternalLink, this);
@@ -27,7 +25,6 @@ var Menu = new Phaser.Class({
      .on('pointerdown', () => {this.scene.start("DevilMap")} )
     },
     update: function() {
-    music.stop();
     }
 });
 function openExternalLink ()
