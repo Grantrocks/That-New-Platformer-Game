@@ -40,8 +40,26 @@ const devil = 'd                                                                
               'd                                                                                          .'+
               'd            sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscc.'+
               'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
-      
-      
+const df = 'ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                               c                   ccccccccd.'+
+               'd   2                             sccs                  c      sccc             p    cc             ccccccccd.'+
+               'dpppppppp     ppppppppp    ppppppppppppppppp    pppp    p    pppppppppp   pppp    ppppppp    ppp    ppppppppd.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'd                                                                                                           d.'+
+               'dsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd.'+
+               'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
       
       
       
