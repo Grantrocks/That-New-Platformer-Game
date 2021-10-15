@@ -183,7 +183,7 @@ music.play();
 	this.coins = this.physics.add.group();
 	this.spikes = this.physics.add.group();
 	this.idirt = this.physics.add.group();
-	let mapArr = dF.split('.');
+	let mapArr = df.split('.');
 	let drawX = 0;
 	let drawY = 0;
 		mapArr.forEach(row=>{
