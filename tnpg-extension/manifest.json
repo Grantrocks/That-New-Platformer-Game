@@ -15,5 +15,6 @@
   },
   "icons": {
     "18": "/images/logo.png"
-  }
+  },
+   "options_page": "options.html"
 }
