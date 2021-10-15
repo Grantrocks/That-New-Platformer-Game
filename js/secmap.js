@@ -69,7 +69,7 @@ var SecMap = new Phaser.Class({
                 this.load.image('logo'+i, 'logo.png');
             }
 this.load.atlas('player', 'character/spritesheet.png', 'character/spritesheet.json');
-this.load.image('coin','blocks/coin.png');
+this.load.atlas('coin','blocks/gcoin.png', 'blocks/gcoin.json');
 this.load.image('spike','blocks/spike.png');
 this.load.image('dirt','blocks/dirt.png');
 this.load.image('idirt','blocks/dirt.png');
@@ -77,13 +77,14 @@ this.load.image('bottom','blocks/bottom.png');
 this.load.image('edgel','blocks/edge.png');
 this.load.image('edger', 'blocks/edger.png');
 this.load.image('platform','blocks/platform.png');
-this.load.audio('music','audio/backgroundmusic.mp3');
+this.load.audio('music','audio/DefaultMap.mp3');
 this.load.audio('collectcoin', 'audio/collectcoin.wav');
 this.load.audio('complete','audio/complete.mp3');
 this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
     },
     create: function() {
+    // Place the remaining create function code below
         var music = this.sound.add('music');
 music.setLoop(true);
 music.play();
@@ -99,12 +100,13 @@ music.play();
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
 		this.player.level = 0;
+		this.player.coins = 56;
 		this.player.progress = 0;
-		this.player.progressl = 500;
+		this.player.progressl = 800;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
     		this.player.level = parseInt(localStorage.getItem('level')) || 0;
     		this.player.progress = parseInt(localStorage.getItem('progress')) ||0;
-		this.player.progressl = parseInt(localStorage.getItem('progressl')) ||500;
+		this.player.progressl = parseInt(localStorage.getItem('progressl')) ||800;
 		this.scoreText = this.add.text(0, 0, "Score: "+this.player.score, {
 			fill:"#000000",
 			fontSize:"15px",
@@ -125,6 +127,7 @@ music.play();
 		player.score+=(Math.floor(Math.random() * 10) + 1);
 		player.progress+=5;
 		player.progressl-=5;
+		this.player.coins -= 1;
     this.sound.play('collectcoin');
 		coin.destroy();
 		this.scoreText.setText("Score: "+ this.player.score);
@@ -132,16 +135,19 @@ music.play();
     localStorage.setItem('score',this.player.score);
     localStorage.setItem('progress',this.player.progress);
     localStorage.setItem('progressl',this.player.progressl);
-    if (this.player.progress == 500){
+    if (this.player.progress >= 800){
       this.sound.play('complete');
       this.player.level += 1;
       this.levelText.setText("Level: "+this.player.level);
       localStorage.setItem('level',this.player.level);
       this.player.progress = 0;
-      this.player.progressl = 500;
+      this.player.progressl = 800;
       localStorage.setItem('progress',this.player.progress);
       localStorage.setItem('progressl',this.player.progressl);
     }
+	if(this.player.coins==0){
+	location.reload();
+	}
 	};
 	this.die = ()=>{
 		this.physics.pause();
@@ -154,7 +160,21 @@ music.play();
 			fontSize:"50px"
 		}).setScrollFactor(0);
 		Phaser.Display.Align.In.Center(deathText, this.add.zone(400, 250, 800, 500));
+		this.time.addEvent({
+        delay: 3000,
+        loop: false,
+        callback: () => {
+            location.reload();
+        }
+    })
 	};
+        this.anims.create({
+		key:"coin",
+			frames:[{key:"coin", frame:"0"}, {key:"coin", frame:"1"}],
+			frameRate:6,
+			repeat:-1
+	});
+
 	this.platforms = this.physics.add.staticGroup();
   this.bottom = this.physics.add.staticGroup();
   this.edger = this.physics.add.staticGroup();
@@ -180,7 +200,7 @@ music.play();
 					this.spawnPlayer(drawX, drawY-12);					
 				}
 			}else if(row.charAt(i)==='c'){
-				this.coins.create(drawX, drawY+1, "coin");
+				this.coins.create(drawX, drawY+1, "coin").play('coin', 6, true);
 			}else if(row.charAt(i)==='s'){
 				this.spikes.create(drawX, drawY+1, "spike");
 			}else if(row.charAt(i)==='d'){
@@ -215,12 +235,11 @@ music.play();
 	this.key_LEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
 	this.key_RIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
    	this.key_R = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
-
     },
     update: function() {
 	 if(this.key_R.isDown){
             location.reload();
-	 }   
+	 }
     	if(this.key_UP.isDown && this.player.body.touching.down){
 		this.player.setVelocityY(-350);
     this.sound.play('jump');
