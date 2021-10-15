@@ -3,6 +3,7 @@
   "description": "Build an Extension!",
   "version": "1.0",
   "manifest_version": 3,
+  "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
   },
