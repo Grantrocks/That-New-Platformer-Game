@@ -40,7 +40,7 @@ const devil = 'd                                                                
               'd                                                                                          .'+
               'd            sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscc.'+
               'lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
-const df = 'ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
+const df =     '                                ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
@@ -54,12 +54,27 @@ const df = 'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
                '                                d                                                                                                           d.'+
-               '                                g                                                                                                           d.'+
-               '                                g                                                                                                           d.'+
-               '               pppppppppppppppppdppppppppp                                                                                                  d.'+
                '                                d                                                                                                           d.'+
-               '                                dsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd.'+
+               '                                l  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                d                                                                                                           d.'+
+               '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
+               '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
+               '                                dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccd.'+
                '                                lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr.';
+
       
       
       
