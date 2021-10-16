@@ -35,7 +35,7 @@ const devil = 'd                                                                
               'd           g    g          g                                                              .'+
               'd           gggggg          g                                                              .'+
               'd        cccg    g  ccc     g                                                              .'+
-              'd  pppppppppg    gppppppgggggggg                                                           .'+
+              'd           g    g      gggggggg                                                           .'+
               'd             p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p.'+
               'd                                                                                          .'+
               'd            sccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccsccscc.'+
