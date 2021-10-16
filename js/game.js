@@ -84,7 +84,6 @@ this.load.audio('hurt', 'audio/Hit.wav');
 this.load.audio('jump', 'audio/Jump.wav');
     },
     create: function() {
-	        game.canvas.addEventListener('mousedown', requestLock);
     // Place the remaining create function code below
         var music = this.sound.add('music');
 music.setLoop(true);
@@ -259,7 +258,4 @@ music.play();
 	}
     }
 });
-function requestLock() {
-    game.input.mouse.requestPointerLock();
-}
 
