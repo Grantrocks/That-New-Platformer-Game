@@ -22,7 +22,7 @@ Below are the stats of the contributors. If you would like to apply to be a cont
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Grantrocks&show_icons=true&theme=dark)
 <br>
 # <a href="https://github.com/Grantrocks/That-New-Platformer-Game/releases">Updates</a>
-1.1.6: Hey Guys just updated the game for Halloween.
+1.1.6: Updated the game for Halloween.
 What was changed:
 <br>
  -Added a Background(Permanent)
