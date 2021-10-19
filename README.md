@@ -24,12 +24,17 @@ Below are the stats of the contributors. If you would like to apply to be a cont
 # <a href="https://github.com/Grantrocks/That-New-Platformer-Game/releases">Updates</a>
 1.1.6: Hey Guys just updated the game for Halloween.
 What was changed:
-
+<br>
  -Added a Background(Permanent)
+ <br>
  -Changed Fonts
+ <br>
  -Uploaded to extension stores
+ <br>
  -Changed HTML background(Temporary for Halloween)
+ <br>
  -Fixed some glitches and bugs
+ <br>
  -Game now reloads on complete of level
 <br>
 1.1.5: Added a new soundtrack to the map "Devil"
