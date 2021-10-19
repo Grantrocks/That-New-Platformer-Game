@@ -9,6 +9,11 @@
 ![Discord](https://img.shields.io/discord/897977677120684102)
 # That New Platformer Game
 That New Platformer Game is about just jumping and walking around and collecting coins while playing the many community created maps and their unique soundtracks. 
+# Install
+![Mozilla Add-on](https://img.shields.io/amo/dw/%7Beb43adad-a5a1-4a50-a408-2bf0175221ab%7D?label=Mozilla%20Downloads)
+![Mozilla Add-on](https://img.shields.io/amo/users/%7Beb43adad-a5a1-4a50-a408-2bf0175221ab%7D?label=Mozilla%20Users)
+<br>
+In order to install on Google Chrome you need to do it manually. See <a href="https://github.com/Grantrocks/That-New-Platformer-Game/discussions/21">How to install the extension</a> to learn how to install it.
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
 # Grantrocks's Stats
