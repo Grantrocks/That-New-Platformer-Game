@@ -8,16 +8,10 @@
 ![GitHub](https://img.shields.io/github/license/Grantrocks/That-New-Platformer-Game)
 ![Discord](https://img.shields.io/discord/897977677120684102)
 # That New Platformer Game
-![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&up_color=green&up_message=Online&url=https%3A%2F%2Ftnpg.netlify.app)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aa6d8c95-1f2f-435b-813a-42b618ab46a5/deploy-status)](https://app.netlify.com/sites/tnpg/deploys)
-<br>
-This is a new platformer game where you jump on platforms and collect coins!
-Go to the discussions to see any questions or go to issues if you have a issue.
+That New Platformer Game is about just jumping and walking around and collecting coins while playing the many community created maps and their unique soundtracks. 
 # Contributor Stats
 Below are the stats of the contributors. If you would like to apply to be a contributor than talk to me @Grantrocks
 # Grantrocks's Stats
-<a href="https://www.patreon.com/Grantrocks" target="_blank">Join my patreon.</a>
-<br>
 ![GitHub followers](https://img.shields.io/github/followers/Grantrocks?style=for-the-badge)
 <br>
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Grantrocks&show_icons=true&theme=dark)
